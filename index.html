@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英语对战竞技场 - English Battle Arena</title>
+    <title>英语T3对战竞技场 - English T3 Battle Arena</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
         
@@ -1301,7 +1301,7 @@
             
             card.innerHTML = `
                 <div class="character-avatar">
-                    <img src="/mnt/user-data/uploads/${character.image}" alt="${character.name}">
+                    <img src="${character.image}" alt="${character.name}">
                 </div>
                 <div class="character-name">${character.name}</div>
                 <div class="character-stats">
@@ -1355,7 +1355,7 @@
                         document.getElementById('player2Grid').innerHTML = `
                             <div class="character-card selected" style="grid-column: span 3;">
                                 <div class="character-avatar">
-                                    <img src="/mnt/user-data/uploads/${randomChar.image}" alt="${randomChar.name}">
+                                    <img src="${randomChar.image}" alt="${randomChar.name}">
                                 </div>
                                 <div class="character-name">${randomChar.name}</div>
                                 <div class="character-stats">
@@ -1440,14 +1440,14 @@
         function initializeBattle() {
             // Set fighter 1
             document.getElementById('fighter1Name').textContent = gameState.player1.name;
-            document.getElementById('fighter1Img').src = `/mnt/user-data/uploads/${gameState.player1.image}`;
+            document.getElementById('fighter1Img').src = `${gameState.player1.image}`;
             gameState.player1Health = gameState.player1.health;
             gameState.player1MaxHealth = gameState.player1.health;
             updateHealthBar(1);
             
             // Set fighter 2
             document.getElementById('fighter2Name').textContent = gameState.player2.name;
-            document.getElementById('fighter2Img').src = `/mnt/user-data/uploads/${gameState.player2.image}`;
+            document.getElementById('fighter2Img').src = `${gameState.player2.image}`;
             gameState.player2Health = gameState.player2.health;
             gameState.player2MaxHealth = gameState.player2.health;
             updateHealthBar(2);
