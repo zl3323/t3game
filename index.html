@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T3 Battle - 英语对战竞技场</title>
+    <title>T3 Battle - Fighting Arena</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&family=VT323&display=swap');
         
@@ -27,6 +27,7 @@
             --text-light: #ffffff;
             --text-dim: #8899aa;
             --ps-blue: #0054a6;
+            --ghost-hp: rgba(255, 255, 255, 0.3);
         }
         
         body {
@@ -277,6 +278,84 @@
                 transform: translateY(0);
             }
         }
+
+        /* Mode Selection Screen */
+        .mode-screen {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .mode-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 36px;
+            color: var(--gold);
+            margin-bottom: 60px;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+            animation: titleFloat 2s ease-in-out infinite;
+        }
+
+        @keyframes titleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .mode-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .mode-button {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            padding: 40px 60px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mode-button::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 204, 0, 0.2) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .mode-button:hover {
+            transform: translateY(-10px) scale(1.05);
+            border-color: var(--gold);
+            box-shadow: 0 20px 40px rgba(255, 204, 0, 0.4);
+        }
+
+        .mode-button:hover::before {
+            opacity: 1;
+        }
+
+        .mode-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .mode-name {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .mode-desc {
+            font-family: 'VT323', monospace;
+            font-size: 20px;
+            color: var(--text-dim);
+        }
         
         /* Character Selection */
         .character-selection-container {
@@ -291,10 +370,26 @@
             margin-bottom: 40px;
             animation: titleFloat 2s ease-in-out infinite;
         }
-        
-        @keyframes titleFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
+
+        .player-turn-indicator {
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 28px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(255, 204, 0, 0.2), rgba(255, 0, 68, 0.2));
+            border-radius: 20px;
+            border: 2px solid var(--gold);
+        }
+
+        .player-turn-indicator.player1 {
+            color: var(--primary-yellow);
+            text-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+        }
+
+        .player-turn-indicator.player2 {
+            color: var(--primary-blue);
+            text-shadow: 0 0 20px rgba(0, 136, 255, 0.5);
         }
         
         .character-showcase {
@@ -336,7 +431,7 @@
             transform: rotate(45deg);
         }
         
-        .character-card:hover {
+        .character-card:hover:not(.disabled) {
             transform: translateY(-10px) scale(1.05);
             border-color: var(--gold);
             box-shadow: 
@@ -344,7 +439,7 @@
                 inset 0 0 20px rgba(255, 204, 0, 0.1);
         }
         
-        .character-card:hover::before {
+        .character-card:hover:not(.disabled)::before {
             opacity: 1;
         }
         
@@ -355,6 +450,16 @@
                 0 0 30px rgba(0, 255, 136, 0.5),
                 inset 0 0 20px rgba(0, 255, 136, 0.2);
             animation: selectedPulse 1s ease-in-out infinite;
+        }
+
+        .character-card.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: scale(0.95);
+        }
+
+        .character-card.disabled:hover {
+            transform: scale(0.95);
         }
         
         @keyframes selectedPulse {
@@ -393,7 +498,7 @@
             transition: transform 0.3s ease;
         }
         
-        .character-card:hover .character-avatar img {
+        .character-card:hover:not(.disabled) .character-avatar img {
             transform: scale(1.1);
         }
         
@@ -472,7 +577,146 @@
         
         /* Battle Screen */
         .battle-container {
-            margin-top: 30px;
+            margin-top: 0;
+        }
+
+        /* Battle HUD */
+        .battle-hud {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+            border-bottom: 3px solid rgba(255, 204, 0, 0.3);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+
+        .hud-player {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .hud-player.p2 {
+            flex-direction: row-reverse;
+        }
+
+        .hud-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid var(--gold);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hud-avatar img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+            image-rendering: pixelated;
+        }
+
+        .hud-info {
+            flex: 1;
+        }
+
+        .hud-info.p2 {
+            text-align: right;
+        }
+
+        .hud-name {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .hud-player.p1 .hud-name {
+            color: var(--primary-yellow);
+        }
+
+        .hud-player.p2 .hud-name {
+            color: var(--primary-blue);
+        }
+
+        .hud-hp-bar {
+            width: 200px;
+            height: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hud-hp-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff88, #00cc66);
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            z-index: 2;
+        }
+
+        .hud-hp-ghost {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: var(--ghost-hp);
+            transition: width 1s ease-out;
+            transition-delay: 0.2s;
+            z-index: 1;
+        }
+
+        .hud-hp-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'VT323', monospace;
+            font-size: 16px;
+            color: white;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+            z-index: 3;
+        }
+
+        .hud-center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .round-indicator {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 20px;
+            color: var(--gold);
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+            margin-bottom: 5px;
+        }
+
+        .hud-timer {
+            font-family: 'Orbitron', monospace;
+            font-size: 32px;
+            font-weight: 900;
+            color: white;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        .hud-timer.warning {
+            color: var(--danger);
+            animation: timerPulse 0.5s ease-in-out infinite;
+        }
+
+        @keyframes timerPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
         }
         
         .battle-arena {
@@ -488,6 +732,7 @@
             box-shadow: 
                 0 0 50px rgba(255, 204, 0, 0.2),
                 inset 0 0 50px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
         }
         
         .battle-field {
@@ -573,65 +818,6 @@
         
         .fighter.player2 .fighter-name {
             color: var(--primary-blue);
-        }
-        
-        .health-bar-container {
-            margin-bottom: 15px;
-        }
-        
-        .health-label {
-            font-size: 18px;
-            margin-bottom: 8px;
-            color: var(--text-dim);
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        
-        .health-bar {
-            width: 100%;
-            height: 30px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 15px;
-            overflow: hidden;
-            position: relative;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3);
-        }
-        
-        .health-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #00ff88, #00cc66);
-            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .health-fill::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-            animation: healthShine 2s ease-in-out infinite;
-        }
-        
-        @keyframes healthShine {
-            0% { left: -100%; }
-            100% { left: 100%; }
-        }
-        
-        .health-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: 'Press Start 2P', cursive;
-            font-size: 14px;
-            color: white;
-            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
         }
         
         .combo-indicator {
@@ -786,32 +972,6 @@
         .answer-btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
-        }
-        
-        /* Timer */
-        .timer {
-            text-align: center;
-            margin-bottom: 25px;
-            font-family: 'Press Start 2P', cursive;
-            font-size: 28px;
-            color: var(--gold);
-            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
-        }
-        
-        .timer.warning {
-            color: var(--danger);
-            animation: timerWarning 0.5s ease-in-out infinite;
-        }
-        
-        @keyframes timerWarning {
-            0%, 100% { 
-                transform: scale(1);
-                text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
-            }
-            50% { 
-                transform: scale(1.15);
-                text-shadow: 0 0 20px rgba(255, 51, 102, 0.8);
-            }
         }
         
         /* Game Result */
@@ -1071,6 +1231,20 @@
                 flex-direction: column;
                 gap: 20px;
             }
+
+            .mode-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hud-player {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hud-player.p2 {
+                align-items: flex-end;
+            }
         }
         
         @media (max-width: 480px) {
@@ -1099,7 +1273,7 @@
                 <span class="t3">T3</span>
                 <span class="battle">Battle</span>
             </div>
-            <button class="start-button" onclick="startGame()">开始游戏</button>
+            <button class="start-button" onclick="startGame()">START</button>
         </div>
         <div class="press-start-text">PRESS START</div>
     </div>
@@ -1109,17 +1283,38 @@
         <div class="container">
             <div class="game-header">
                 <div class="game-title">T3 Battle</div>
-                <div class="game-subtitle">英语对战竞技场</div>
+                <div class="game-subtitle">FIGHTING ARENA</div>
+            </div>
+
+            <!-- Mode Selection Screen -->
+            <div id="modeScreen" class="screen active">
+                <div class="mode-screen">
+                    <div class="mode-title">SELECT MODE</div>
+                    <div class="mode-buttons">
+                        <div class="mode-button" onclick="selectMode('solo')">
+                            <div class="mode-icon">🤖</div>
+                            <div class="mode-name">SOLO</div>
+                            <div class="mode-desc">VS AI</div>
+                        </div>
+                        <div class="mode-button" onclick="selectMode('duo')">
+                            <div class="mode-icon">👥</div>
+                            <div class="mode-name">DUO</div>
+                            <div class="mode-desc">LOCAL 2P</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             <!-- Character Selection Screen -->
-            <div id="characterScreen" class="screen active">
+            <div id="characterScreen" class="screen">
+                <button class="btn back-btn" onclick="backToMode()">BACK</button>
                 <div class="character-selection-container">
-                    <div class="selection-title">选择你的战士</div>
+                    <div class="selection-title">CHOOSE YOUR FIGHTER</div>
+                    <div id="playerTurnIndicator" class="player-turn-indicator" style="display: none;"></div>
                     <div class="character-showcase">
                         <div class="character-grid" id="characterGrid"></div>
                         <div class="btn-container">
-                            <button class="btn" id="startBattleBtn" onclick="startBattle()" disabled>开始战斗</button>
+                            <button class="btn" id="startBattleBtn" onclick="startBattle()" disabled>START BATTLE</button>
                         </div>
                     </div>
                 </div>
@@ -1127,8 +1322,42 @@
             
             <!-- Battle Screen -->
             <div id="battleScreen" class="screen">
-                <button class="btn back-btn" onclick="backToSelection()">返回</button>
+                <button class="btn back-btn" onclick="backToSelection()">BACK</button>
                 <div class="battle-container">
+                    <!-- Battle HUD -->
+                    <div class="battle-hud">
+                        <div class="hud-player p1">
+                            <div class="hud-avatar">
+                                <img id="hudP1Img" src="" alt="">
+                            </div>
+                            <div class="hud-info">
+                                <div class="hud-name" id="hudP1Name">PLAYER 1</div>
+                                <div class="hud-hp-bar">
+                                    <div class="hud-hp-ghost" id="hudP1Ghost" style="width: 100%"></div>
+                                    <div class="hud-hp-fill" id="hudP1HP" style="width: 100%"></div>
+                                    <span class="hud-hp-text" id="hudP1Text">100/100</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hud-center">
+                            <div class="round-indicator">ROUND 1</div>
+                            <div class="hud-timer" id="hudTimer">30</div>
+                        </div>
+                        <div class="hud-player p2">
+                            <div class="hud-avatar">
+                                <img id="hudP2Img" src="" alt="">
+                            </div>
+                            <div class="hud-info p2">
+                                <div class="hud-name" id="hudP2Name">PLAYER 2</div>
+                                <div class="hud-hp-bar">
+                                    <div class="hud-hp-ghost" id="hudP2Ghost" style="width: 100%"></div>
+                                    <div class="hud-hp-fill" id="hudP2HP" style="width: 100%"></div>
+                                    <span class="hud-hp-text" id="hudP2Text">100/100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="battle-arena">
                         <div class="battle-field">
                             <div class="fighter player1">
@@ -1137,14 +1366,6 @@
                                 </div>
                                 <div class="fighter-info">
                                     <div class="fighter-name" id="fighter1Name"></div>
-                                    <div class="health-bar-container">
-                                        <div class="health-label">生命值</div>
-                                        <div class="health-bar">
-                                            <div class="health-fill" id="fighter1Health" style="width: 100%">
-                                                <span class="health-text" id="fighter1HealthText">100/100</span>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="combo-indicator" id="fighter1Combo"></div>
                                 </div>
                             </div>
@@ -1155,21 +1376,12 @@
                                 </div>
                                 <div class="fighter-info">
                                     <div class="fighter-name" id="fighter2Name"></div>
-                                    <div class="health-bar-container">
-                                        <div class="health-label">生命值</div>
-                                        <div class="health-bar">
-                                            <div class="health-fill" id="fighter2Health" style="width: 100%">
-                                                <span class="health-text" id="fighter2HealthText">100/100</span>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="combo-indicator" id="fighter2Combo"></div>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="question-area">
-                            <div class="timer" id="timer"></div>
                             <div class="turn-indicator" id="turnIndicator"></div>
                             <div class="question-text" id="questionText"></div>
                             <div class="answer-options" id="answerOptions"></div>
@@ -1181,24 +1393,24 @@
             <!-- Result Screen -->
             <div id="resultScreen" class="screen">
                 <div class="result-screen">
-                    <div class="winner-text" id="winnerTitle">胜利!</div>
+                    <div class="winner-text" id="winnerTitle">VICTORY!</div>
                     <div class="winner-name" id="winnerName"></div>
                     <div class="final-stats">
                         <div class="final-stat">
-                            <div class="final-stat-label">正确答题</div>
+                            <div class="final-stat-label">CORRECT</div>
                             <div class="final-stat-value" id="correctAnswers">0</div>
                         </div>
                         <div class="final-stat">
-                            <div class="final-stat-label">总伤害</div>
+                            <div class="final-stat-label">DAMAGE</div>
                             <div class="final-stat-value" id="totalDamage">0</div>
                         </div>
                         <div class="final-stat">
-                            <div class="final-stat-label">最高连击</div>
+                            <div class="final-stat-label">MAX COMBO</div>
                             <div class="final-stat-value" id="maxCombo">0</div>
                         </div>
                     </div>
                     <div class="btn-container">
-                        <button class="btn" onclick="resetGame()">再来一局</button>
+                        <button class="btn" onclick="resetGame()">PLAY AGAIN</button>
                     </div>
                 </div>
             </div>
@@ -1208,7 +1420,9 @@
     <script>
         // Game State
         let gameState = {
+            mode: null, // 'solo' or 'duo'
             currentTurn: 1,
+            selectingPlayer: 1, // For duo mode character selection
             player1: null,
             player2: null,
             player1Health: 100,
@@ -1239,7 +1453,7 @@
                 health: 100,
                 attack: 35,
                 defense: 20,
-                special: '速攻型'
+                special: 'Speed Type'
             },
             {
                 id: 'eason',
@@ -1248,7 +1462,7 @@
                 health: 90,
                 attack: 30,
                 defense: 25,
-                special: '平衡型'
+                special: 'Balanced'
             },
             {
                 id: 'jason',
@@ -1257,7 +1471,7 @@
                 health: 120,
                 attack: 25,
                 defense: 35,
-                special: '防御型'
+                special: 'Defense Type'
             },
             {
                 id: 'joey',
@@ -1266,7 +1480,7 @@
                 health: 110,
                 attack: 28,
                 defense: 30,
-                special: '耐久型'
+                special: 'Endurance'
             },
             {
                 id: 'quan',
@@ -1275,7 +1489,7 @@
                 health: 95,
                 attack: 32,
                 defense: 22,
-                special: '技巧型'
+                special: 'Technical'
             },
             {
                 id: 'randy',
@@ -1284,7 +1498,7 @@
                 health: 85,
                 attack: 40,
                 defense: 15,
-                special: '暴击型'
+                special: 'Critical'
             },
             {
                 id: 'mark',
@@ -1293,7 +1507,7 @@
                 health: 105,
                 attack: 30,
                 defense: 28,
-                special: '全能型'
+                special: 'All-Round'
             },
             {
                 id: 'maximus',
@@ -1302,7 +1516,7 @@
                 health: 115,
                 attack: 27,
                 defense: 32,
-                special: '坦克型'
+                special: 'Tank'
             },
             {
                 id: 'bruce',
@@ -1311,127 +1525,269 @@
                 health: 100,
                 attack: 33,
                 defense: 25,
-                special: '格斗型'
+                special: 'Fighter'
             }
         ];
         
-        // Question Bank
-        const questions = [
-            {
-                question: "What is the past tense of 'go'?",
-                options: ["goed", "went", "gone", "going"],
-                correct: 1
-            },
-            {
-                question: "Choose the correct spelling:",
-                options: ["recieve", "receive", "receeve", "recive"],
-                correct: 1
-            },
-            {
-                question: "What does 'procrastinate' mean?",
-                options: ["To hurry up", "To delay doing something", "To finish early", "To work hard"],
-                correct: 1
-            },
-            {
-                question: "Which word is a synonym for 'happy'?",
-                options: ["Sad", "Angry", "Joyful", "Tired"],
-                correct: 2
-            },
-            {
-                question: "Complete: 'She ___ to school every day.'",
-                options: ["go", "goes", "going", "gone"],
-                correct: 1
-            },
-            {
-                question: "What is the plural of 'child'?",
-                options: ["childs", "childes", "children", "childrens"],
-                correct: 2
-            },
-            {
-                question: "Which sentence is correct?",
-                options: ["Their going to the park", "There going to the park", "They're going to the park", "Theyre going to the park"],
-                correct: 2
-            },
-            {
-                question: "What does 'ambitious' mean?",
-                options: ["Lazy", "Having strong desire for success", "Afraid", "Confused"],
-                correct: 1
-            },
-            {
-                question: "Choose the correct article: '___ apple a day keeps the doctor away.'",
-                options: ["A", "An", "The", "No article"],
-                correct: 1
-            },
-            {
-                question: "What is the comparative form of 'good'?",
-                options: ["gooder", "more good", "better", "best"],
-                correct: 2
-            },
-            {
-                question: "Which word is an antonym of 'ancient'?",
-                options: ["Old", "Historic", "Modern", "Antique"],
-                correct: 2
-            },
-            {
-                question: "Complete: 'If I ___ rich, I would travel the world.'",
-                options: ["am", "was", "were", "be"],
-                correct: 2
-            },
-            {
-                question: "What type of word is 'quickly'?",
-                options: ["Noun", "Verb", "Adjective", "Adverb"],
-                correct: 3
-            },
-            {
-                question: "Choose the correct preposition: 'The book is ___ the table.'",
-                options: ["in", "on", "at", "of"],
-                correct: 1
-            },
-            {
-                question: "What does 'elaborate' mean?",
-                options: ["Simple", "To explain in detail", "To delete", "To summarize"],
-                correct: 1
-            },
-            {
-                question: "Which sentence uses the present perfect tense?",
-                options: ["I eat lunch", "I ate lunch", "I have eaten lunch", "I am eating lunch"],
-                correct: 2
-            },
-            {
-                question: "What is the superlative form of 'big'?",
-                options: ["bigger", "biggest", "more big", "most big"],
-                correct: 1
-            },
-            {
-                question: "Choose the correct word: 'The weather ___ nice today.'",
-                options: ["are", "is", "were", "be"],
-                correct: 1
-            },
-            {
-                question: "What does 'resilient' mean?",
-                options: ["Weak", "Able to recover quickly", "Angry", "Slow"],
-                correct: 1
-            },
-            {
-                question: "Which is a conjunction?",
-                options: ["Run", "Beautiful", "And", "Quickly"],
-                correct: 2
+        // Question Bank (loaded from external JSON)
+        let QUESTION_BANK = [];
+        let questionHistory = [];
+        const MAX_HISTORY = 5; // Avoid repeating questions too soon
+
+        // Load question bank from external JSON
+        async function loadQuestionBank() {
+            try {
+                const response = await fetch('./questionBank_unit1-4.json', { cache: 'no-store' });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // Validate the data
+                if (!Array.isArray(data)) {
+                    throw new Error('Question bank is not an array');
+                }
+                
+                if (data.length === 0) {
+                    throw new Error('Question bank is empty');
+                }
+                
+                // Validate question format
+                const validQuestions = data.filter(q => {
+                    if (!q.question || !q.type) return false;
+                    if (q.type === 'choice' && (!q.options || !Array.isArray(q.options) || q.options.length !== 4 || typeof q.correct !== 'number')) {
+                        return false;
+                    }
+                    if (q.type === 'fill' && !q.answer) return false;
+                    return true;
+                });
+                
+                if (validQuestions.length === 0) {
+                    throw new Error('No valid questions found in question bank');
+                }
+                
+                console.log(`Loaded ${validQuestions.length} questions from question bank`);
+                return validQuestions;
+                
+            } catch (error) {
+                console.error('Error loading question bank:', error);
+                throw error;
             }
-        ];
+        }
+
+        // Show error message if question bank fails to load
+        function showLoadError(message) {
+            const errorOverlay = document.createElement('div');
+            errorOverlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.9);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                z-index: 10000;
+                font-family: 'Press Start 2P', cursive;
+                color: #ff0044;
+                text-align: center;
+                padding: 20px;
+            `;
+            
+            errorOverlay.innerHTML = `
+                <div style="font-size: 32px; margin-bottom: 30px;">ERROR!</div>
+                <div style="font-size: 16px; margin-bottom: 30px; max-width: 600px; line-height: 1.5;">
+                    FAILED TO LOAD QUESTION BANK<br><br>
+                    ${message}<br><br>
+                    CHECK FILE PATH OR GITHUB PAGES
+                </div>
+                <button onclick="location.reload()" style="
+                    padding: 15px 30px;
+                    font-family: 'Press Start 2P', cursive;
+                    font-size: 14px;
+                    background: linear-gradient(135deg, #ffcc00, #ff0044);
+                    border: none;
+                    border-radius: 10px;
+                    color: white;
+                    cursor: pointer;
+                ">RELOAD</button>
+            `;
+            
+            document.body.appendChild(errorOverlay);
+        }
+
+        // Get question based on difficulty setting
+        function getQuestion() {
+            if (QUESTION_BANK.length === 0) {
+                console.error('Question bank is empty!');
+                return null;
+            }
+            
+            // Filter questions based on difficulty (for AI mode)
+            let filteredQuestions = [...QUESTION_BANK];
+            
+            // Filter out fill questions for now (only use choice questions)
+            filteredQuestions = filteredQuestions.filter(q => q.type === 'choice');
+            
+            // Apply difficulty filtering if in solo mode
+            if (gameState.mode === 'solo') {
+                const difficultyLevel = gameState.difficulty;
+                let targetDifficulties = [];
+                
+                if (difficultyLevel === 'easy') {
+                    targetDifficulties = [1];
+                } else if (difficultyLevel === 'normal') {
+                    targetDifficulties = [1, 2];
+                } else if (difficultyLevel === 'hard') {
+                    targetDifficulties = [2, 3];
+                }
+                
+                const difficultyFiltered = filteredQuestions.filter(q => 
+                    q.difficulty && targetDifficulties.includes(q.difficulty)
+                );
+                
+                // If we have enough questions with target difficulty, use them
+                if (difficultyFiltered.length >= 5) {
+                    filteredQuestions = difficultyFiltered;
+                }
+                // Otherwise use all questions to avoid running out
+            }
+            
+            // Remove recently used questions
+            const availableQuestions = filteredQuestions.filter(q => 
+                !questionHistory.some(histQ => histQ.id === q.id || histQ.question === q.question)
+            );
+            
+            // If we've used too many questions, reset but keep last few
+            if (availableQuestions.length < 3) {
+                questionHistory = questionHistory.slice(-2);
+                return getQuestion(); // Recursive call with reset history
+            }
+            
+            // Select random question
+            const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+            const selectedQuestion = availableQuestions[randomIndex];
+            
+            // Add to history
+            questionHistory.push(selectedQuestion);
+            if (questionHistory.length > MAX_HISTORY) {
+                questionHistory.shift();
+            }
+            
+            return selectedQuestion;
+        }
         
         // Initialize
-        function init() {
-            renderCharacters();
+        async function init() {
+            // Setup keyboard listeners for buzz mode
+            document.addEventListener('keydown', handleBuzzKey);
+        }
+
+        // Buzz Mode Handler
+        function handleBuzzKey(e) {
+            if (!gameState.buzzMode || gameState.buzzWinner !== null) return;
+            
+            const key = e.key.toLowerCase();
+            if (key === 'a') {
+                gameState.buzzWinner = 1;
+                lockOutBuzz();
+            } else if (key === 'l') {
+                gameState.buzzWinner = 2;
+                lockOutBuzz();
+            }
+        }
+
+        function lockOutBuzz() {
+            if (gameState.buzzWinner === 1) {
+                gameState.currentTurn = 1;
+                document.getElementById('turnIndicator').textContent = 'PLAYER 1 BUZZED!';
+            } else {
+                gameState.currentTurn = 2;
+                document.getElementById('turnIndicator').textContent = 'PLAYER 2 BUZZED!';
+            }
+            
+            // Lock out the other player's answer buttons
+            document.querySelectorAll('.answer-btn').forEach(btn => {
+                btn.classList.remove('locked');
+            });
         }
         
         // Start Game from Cover
-        function startGame() {
-            document.getElementById('coverScreen').classList.add('hidden');
+        async function startGame() {
+            try {
+                // Load question bank first
+                QUESTION_BANK = await loadQuestionBank();
+                
+                // If successful, proceed with game
+                document.getElementById('coverScreen').classList.add('hidden');
+                setTimeout(() => {
+                    document.getElementById('coverScreen').style.display = 'none';
+                    document.getElementById('gameContainer').classList.add('active');
+                    showScreen('modeScreen');
+                }, 500);
+            } catch (error) {
+                showLoadError(error.message);
+            }
+        }
+
+        // Mode Selection
+        function selectMode(mode) {
+            gameState.mode = mode;
+            gameState.selectingPlayer = 1;
+            
+            if (mode === 'solo') {
+                document.getElementById('difficultySelection').style.display = 'block';
+                document.getElementById('duoOptions').style.display = 'none';
+            } else {
+                document.getElementById('difficultySelection').style.display = 'none';
+                document.getElementById('duoOptions').style.display = 'block';
+            }
+            
             setTimeout(() => {
-                document.getElementById('coverScreen').style.display = 'none';
-                document.getElementById('gameContainer').classList.add('active');
-                init();
+                showScreen('characterScreen');
+                renderCharacters();
+                
+                if (mode === 'duo') {
+                    document.getElementById('playerTurnIndicator').style.display = 'block';
+                    document.getElementById('playerTurnIndicator').className = 'player-turn-indicator player1';
+                    document.getElementById('playerTurnIndicator').textContent = 'PLAYER 1 SELECT';
+                } else {
+                    document.getElementById('playerTurnIndicator').style.display = 'none';
+                }
             }, 500);
+        }
+
+        // Difficulty Selection
+        function selectDifficulty(level) {
+            gameState.difficulty = level;
+            document.querySelectorAll('.difficulty-btn').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+            event.target.classList.add('selected');
+        }
+
+        // Buzz Mode Toggle
+        function toggleBuzz() {
+            gameState.buzzMode = !gameState.buzzMode;
+            const toggle = document.getElementById('buzzToggle');
+            const status = document.getElementById('buzzStatus');
+            
+            if (gameState.buzzMode) {
+                toggle.classList.add('active');
+                status.textContent = 'ON';
+            } else {
+                toggle.classList.remove('active');
+                status.textContent = 'OFF';
+            }
+        }
+
+        function backToMode() {
+            resetGameState();
+            showScreen('modeScreen');
         }
         
         // Screen Management
@@ -1463,6 +1819,7 @@
             const card = document.createElement('div');
             card.className = 'character-card';
             card.onclick = () => selectCharacter(character);
+            card.dataset.characterId = character.id;
             
             card.innerHTML = `
                 <div class="character-avatar">
@@ -1495,24 +1852,54 @@
         }
         
         function selectCharacter(character) {
-            // Deselect all cards
-            document.querySelectorAll('.character-card').forEach(card => {
-                card.classList.remove('selected');
-            });
-            
-            // Select this card
-            event.currentTarget.classList.add('selected');
-            gameState.player1 = character;
-            
-            // Auto select AI opponent
-            setTimeout(() => {
-                const availableChars = characters.filter(c => c.id !== character.id);
-                const randomChar = availableChars[Math.floor(Math.random() * availableChars.length)];
-                gameState.player2 = randomChar;
+            if (gameState.mode === 'solo') {
+                // Solo mode: Select P1, auto-assign P2
+                document.querySelectorAll('.character-card').forEach(card => {
+                    card.classList.remove('selected');
+                });
                 
-                // Enable start button
-                document.getElementById('startBattleBtn').disabled = false;
-            }, 500);
+                event.currentTarget.classList.add('selected');
+                gameState.player1 = character;
+                
+                // Auto select AI opponent
+                setTimeout(() => {
+                    const availableChars = characters.filter(c => c.id !== character.id);
+                    const randomChar = availableChars[Math.floor(Math.random() * availableChars.length)];
+                    gameState.player2 = randomChar;
+                    
+                    // Enable start button
+                    document.getElementById('startBattleBtn').disabled = false;
+                }, 500);
+            } else if (gameState.mode === 'duo') {
+                // Duo mode: Sequential selection
+                if (gameState.selectingPlayer === 1) {
+                    // Player 1 selecting
+                    document.querySelectorAll('.character-card').forEach(card => {
+                        card.classList.remove('selected');
+                    });
+                    
+                    event.currentTarget.classList.add('selected');
+                    gameState.player1 = character;
+                    gameState.selectingPlayer = 2;
+                    
+                    // Update indicator
+                    document.getElementById('playerTurnIndicator').className = 'player-turn-indicator player2';
+                    document.getElementById('playerTurnIndicator').textContent = 'PLAYER 2 SELECT';
+                    
+                    // Disable selected character
+                    event.currentTarget.classList.add('disabled');
+                } else if (gameState.selectingPlayer === 2) {
+                    // Player 2 selecting
+                    if (character.id === gameState.player1.id) return; // Can't select same character
+                    
+                    event.currentTarget.classList.add('selected');
+                    gameState.player2 = character;
+                    
+                    // Enable start button
+                    document.getElementById('startBattleBtn').disabled = false;
+                    document.getElementById('playerTurnIndicator').style.display = 'none';
+                }
+            }
         }
         
         // Battle System
@@ -1525,25 +1912,64 @@
         }
         
         function initializeBattle() {
-            // Set fighter 1 (Player)
+            // Set HUD info
+            document.getElementById('hudP1Name').textContent = gameState.player1.name;
+            document.getElementById('hudP1Img').src = gameState.player1.image;
+            document.getElementById('hudP2Name').textContent = gameState.mode === 'solo' ? `AI ${gameState.player2.name}` : gameState.player2.name;
+            document.getElementById('hudP2Img').src = gameState.player2.image;
+            
+            // Set fighter info
             document.getElementById('fighter1Name').textContent = gameState.player1.name;
             document.getElementById('fighter1Img').src = gameState.player1.image;
+            document.getElementById('fighter2Name').textContent = gameState.mode === 'solo' ? `AI ${gameState.player2.name}` : gameState.player2.name;
+            document.getElementById('fighter2Img').src = gameState.player2.image;
+            
+            // Initialize health and energy
             gameState.player1Health = gameState.player1.health;
             gameState.player1MaxHealth = gameState.player1.health;
-            updateHealthBar(1);
-            
-            // Set fighter 2 (AI)
-            document.getElementById('fighter2Name').textContent = `AI ${gameState.player2.name}`;
-            document.getElementById('fighter2Img').src = gameState.player2.image;
             gameState.player2Health = gameState.player2.health;
             gameState.player2MaxHealth = gameState.player2.health;
+            gameState.player1Energy = 0;
+            gameState.player2Energy = 0;
+            
+            updateHealthBar(1);
             updateHealthBar(2);
+            updateEnergyBar(1);
+            updateEnergyBar(2);
             
             // Reset combos
             gameState.player1Combo = 0;
             gameState.player2Combo = 0;
             updateComboDisplay(1);
             updateComboDisplay(2);
+            
+            // Show buzz indicator if in buzz mode
+            if (gameState.buzzMode && gameState.mode === 'duo') {
+                document.getElementById('buzzIndicator').style.display = 'block';
+            }
+        }
+        
+        
+        function selectStance(stance) {
+            const currentPlayer = gameState.buzzWinner || gameState.currentTurn;
+            
+            if (currentPlayer === 1) {
+                gameState.player1Stance = stance;
+            } else {
+                gameState.player2Stance = stance;
+            }
+            
+            // Highlight selected stance
+            document.querySelectorAll('.stance-btn').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+            event.target.classList.add('selected');
+            
+            // Hide stance selection and show question
+            setTimeout(() => {
+                document.getElementById('stanceSelection').style.display = 'none';
+                showQuestion();
+            }, 300);
         }
         
         function nextQuestion() {
@@ -1552,16 +1978,45 @@
                 return;
             }
             
-            const currentPlayer = gameState.currentTurn;
+            // Reset buzz winner for new question
+            gameState.buzzWinner = null;
+            
+            // Show stance selection first
+            document.getElementById('stanceSelection').style.display = 'block';
+            document.getElementById('questionText').textContent = '';
+            document.getElementById('answerOptions').innerHTML = '';
+            
+            const currentPlayer = gameState.buzzMode ? null : gameState.currentTurn;
             const turnIndicator = document.getElementById('turnIndicator');
             
-            turnIndicator.textContent = currentPlayer === 1 ? '你的回合' : 'AI 的回合';
+            if (gameState.buzzMode && gameState.mode === 'duo') {
+                turnIndicator.textContent = 'WAITING FOR BUZZ...';
+            } else if (gameState.mode === 'solo') {
+                turnIndicator.textContent = currentPlayer === 1 ? 'PLAYER TURN' : 'AI TURN';
+                
+                // AI auto-selects stance
+                if (currentPlayer === 2) {
+                    const stances = ['attack', 'defend', 'dodge', 'gamble'];
+                    gameState.player2Stance = stances[Math.floor(Math.random() * stances.length)];
+                    setTimeout(() => {
+                        document.getElementById('stanceSelection').style.display = 'none';
+                        showQuestion();
+                    }, 1000);
+                }
+            } else {
+                turnIndicator.textContent = `PLAYER ${currentPlayer} TURN`;
+            }
+        }
+
+        function showQuestion() {
+            const question = getQuestion();
+            if (!question) {
+                console.error('No question available!');
+                return;
+            }
             
-            // Get random question
-            const question = questions[Math.floor(Math.random() * questions.length)];
             document.getElementById('questionText').textContent = question.question;
             
-            // Render answer options
             const answerContainer = document.getElementById('answerOptions');
             answerContainer.innerHTML = '';
             
@@ -1571,50 +2026,62 @@
                 btn.textContent = option;
                 btn.onclick = () => checkAnswer(index, question.correct);
                 
-                // Disable buttons during AI turn
-                if (currentPlayer === 2) {
+                // Handle button states based on mode
+                if (gameState.buzzMode && gameState.buzzWinner === null) {
+                    // In buzz mode, enable all buttons but they won't work until someone buzzes
+                    btn.onclick = () => {
+                        if (gameState.buzzWinner !== null) {
+                            checkAnswer(index, question.correct);
+                        }
+                    };
+                } else if (gameState.mode === 'solo' && gameState.currentTurn === 2) {
                     btn.disabled = true;
                 }
                 
                 answerContainer.appendChild(btn);
             });
             
-            // Start timer
             startTimer();
             
-            // AI auto answer
-            if (currentPlayer === 2) {
+            // AI auto answer in solo mode
+            if (gameState.mode === 'solo' && gameState.currentTurn === 2) {
+                const diffConfig = gameConfig.difficulty[gameState.difficulty];
+                const delay = diffConfig.reactionDelay.min + 
+                             Math.random() * (diffConfig.reactionDelay.max - diffConfig.reactionDelay.min);
+                
                 setTimeout(() => {
-                    // AI has different accuracy based on difficulty (70-85% correct)
-                    const aiAccuracy = 0.7 + Math.random() * 0.15;
-                    const aiAnswer = Math.random() < aiAccuracy ? question.correct : Math.floor(Math.random() * 4);
+                    const aiAnswer = Math.random() < diffConfig.accuracy ? 
+                                   question.correct : 
+                                   Math.floor(Math.random() * 4);
                     checkAnswer(aiAnswer, question.correct);
-                }, 1500 + Math.random() * 1500); // AI thinks for 1.5-3 seconds
+                }, delay);
             }
         }
         
         function startTimer() {
             gameState.timeLeft = 30;
-            const timerElement = document.getElementById('timer');
+            const timerElement = document.getElementById('hudTimer');
             
             if (gameState.timer) {
                 clearInterval(gameState.timer);
             }
             
+            timerElement.classList.remove('warning');
+            
             gameState.timer = setInterval(() => {
                 gameState.timeLeft--;
-                timerElement.textContent = `⏱ ${gameState.timeLeft}s`;
+                timerElement.textContent = gameState.timeLeft;
                 
                 if (gameState.timeLeft <= 10) {
                     timerElement.classList.add('warning');
-                } else {
-                    timerElement.classList.remove('warning');
                 }
                 
                 if (gameState.timeLeft <= 0) {
                     clearInterval(gameState.timer);
-                    if (gameState.currentTurn === 1) {
-                        checkAnswer(-1, -1); // Player timeout
+                    if (gameState.mode === 'solo' && gameState.currentTurn === 1) {
+                        checkAnswer(-1, -1);
+                    } else if (gameState.mode === 'duo') {
+                        checkAnswer(-1, -1);
                     }
                 }
             }, 1000);
@@ -1637,7 +2104,7 @@
             const isCorrect = selected === correct;
             
             if (isCorrect) {
-                // Increase combo
+                // Handle correct answer and damage calculation
                 if (currentPlayer === 1) {
                     gameState.player1Combo++;
                     gameState.player1Stats.correct++;
@@ -1661,15 +2128,240 @@
                 
                 // Combo bonus
                 if (combo >= 3) {
-                    damage *= 1.5; // 50% bonus for 3+ combo
+                    damage *= 1.5;
                 }
                 if (combo >= 5) {
-                    damage *= 1.8; // 80% bonus for 5+ combo
+                    damage *= 1.8;
                 }
                 
-                damage = Math.round(Math.max(damage, 10)); // Minimum 10 damage
+                damage = Math.round(Math.max(damage, 10));
                 
-                // Apply damage
+                // Apply penalty based on defender's stance
+                if (stance === 'defend' || (stance === 'dodge' && Math.random() < 0.5)) {
+                    // Reduced or no penalty
+                } else if (stance === 'gamble') {
+                    // Double penalty for gamble
+                    const penalty = 10 * stanceConfig.defenseMultiplier;
+                    if (currentPlayer === 1) {
+                        gameState.player1Health -= penalty;
+                        showDamageEffect(1, penalty, false);
+                    } else {
+                        gameState.player2Health -= penalty;
+                        showDamageEffect(2, penalty, false);
+                    }
+                    updateHealthBar(currentPlayer);
+                }
+                
+                updateEnergyBar(currentPlayer);
+                updateComboDisplay(currentPlayer);
+            }
+            
+            // Switch turns (unless in buzz mode)
+            setTimeout(() => {
+                if (!gameState.buzzMode || gameState.mode === 'solo') {
+                    gameState.currentTurn = gameState.currentTurn === 1 ? 2 : 1;
+                }
+                nextQuestion();
+            }, 2000);
+        }
+        
+        function updateHealthBar(player) {
+            const health = player === 1 ? gameState.player1Health : gameState.player2Health;
+            const maxHealth = player === 1 ? gameState.player1MaxHealth : gameState.player2MaxHealth;
+            const percentage = Math.max(0, (health / maxHealth) * 100);
+            
+            // Update HUD bars
+            const hudHP = document.getElementById(`hudP${player}HP`);
+            const hudGhost = document.getElementById(`hudP${player}Ghost`);
+            const hudText = document.getElementById(`hudP${player}Text`);
+            
+            hudHP.style.width = `${percentage}%`;
+            hudText.textContent = `${Math.max(0, Math.round(health))}/${maxHealth}`;
+            
+            // Ghost bar effect (delayed)
+            setTimeout(() => {
+                hudGhost.style.width = `${percentage}%`;
+            }, 100);
+            
+            // Change color based on health
+            if (percentage <= 20) {
+                hudHP.style.background = 'linear-gradient(90deg, #ff3366, #cc0000)';
+            } else if (percentage <= 50) {
+                hudHP.style.background = 'linear-gradient(90deg, #ffcc00, #ff9900)';
+            }
+        }
+
+        function updateEnergyBar(player) {
+            const energy = player === 1 ? gameState.player1Energy : gameState.player2Energy;
+            const percentage = (energy / gameConfig.energy.maxEnergy) * 100;
+            
+            const energyBar = document.getElementById(`hudP${player}Energy`);
+            const energyText = document.getElementById(`hudP${player}EnergyText`);
+            
+            energyBar.style.width = `${percentage}%`;
+            energyText.textContent = energy;
+            
+            if (energy >= 100) {
+                energyBar.classList.add('full');
+            } else {
+                energyBar.classList.remove('full');
+            }
+        }
+        
+        function updateComboDisplay(player) {
+            const combo = player === 1 ? gameState.player1Combo : gameState.player2Combo;
+            const comboElement = document.getElementById(`fighter${player}Combo`);
+            
+            if (combo > 0) {
+                comboElement.textContent = `🔥 COMBO x${combo}`;
+                comboElement.classList.add('active');
+                
+                if (combo >= 5) {
+                    comboElement.textContent = `🔥🔥 SUPER COMBO x${combo}`;
+                }
+            } else {
+                comboElement.textContent = '';
+                comboElement.classList.remove('active');
+            }
+        }
+        
+        function performAttackAnimation(attacker) {
+            const avatar = document.getElementById(`fighter${attacker}Avatar`);
+            const defender = attacker === 1 ? 2 : 1;
+            const defenderAvatar = document.getElementById(`fighter${defender}Avatar`);
+            
+            avatar.classList.add('attacking');
+            setTimeout(() => {
+                avatar.classList.remove('attacking');
+                defenderAvatar.classList.add('damaged');
+                setTimeout(() => {
+                    defenderAvatar.classList.remove('damaged');
+                }, 500);
+            }, 250);
+        }
+
+        function performSpecialAttack(attacker) {
+            const avatar = document.getElementById(`fighter${attacker}Avatar`);
+            const defender = attacker === 1 ? 2 : 1;
+            const defenderAvatar = document.getElementById(`fighter${defender}Avatar`);
+            
+            // Add screen shake
+            document.getElementById('gameContainer').classList.add('screen-shake');
+            
+            // Show special effect text
+            const specialText = document.createElement('div');
+            specialText.className = 'special-effect';
+            specialText.textContent = 'SPECIAL!';
+            document.querySelector('.battle-arena').appendChild(specialText);
+            
+            avatar.classList.add('special');
+            setTimeout(() => {
+                avatar.classList.remove('special');
+                defenderAvatar.classList.add('damaged');
+                
+                setTimeout(() => {
+                    defenderAvatar.classList.remove('damaged');
+                    document.getElementById('gameContainer').classList.remove('screen-shake');
+                    specialText.remove();
+                }, 1000);
+            }, 500);
+        }
+        
+        function showDamageEffect(target, damage, isCritical) {
+            const fighter = document.querySelector(`.fighter.player${target}`);
+            const damageNumber = document.createElement('div');
+            damageNumber.className = 'damage-number';
+            if (isCritical) {
+                damageNumber.classList.add('critical-hit');
+                damageNumber.textContent = `CRITICAL! -${damage}`;
+            } else {
+                damageNumber.textContent = `-${damage}`;
+            }
+            
+            damageNumber.style.left = '50%';
+            damageNumber.style.top = '20%';
+            fighter.appendChild(damageNumber);
+            
+            setTimeout(() => {
+                damageNumber.remove();
+            }, 1200);
+        }
+        
+        function endGame() {
+            const winner = gameState.player1Health > 0 ? 1 : 2;
+            const winnerChar = winner === 1 ? gameState.player1 : gameState.player2;
+            const winnerStats = winner === 1 ? gameState.player1Stats : gameState.player2Stats;
+            
+            if (gameState.mode === 'solo') {
+                document.getElementById('winnerTitle').textContent = winner === 1 ? 'VICTORY!' : 'DEFEAT...';
+                document.getElementById('winnerName').textContent = winner === 1 ? winnerChar.name : `AI ${winnerChar.name} WINS`;
+                document.getElementById('correctAnswers').textContent = gameState.player1Stats.correct;
+                document.getElementById('totalDamage').textContent = gameState.player1Stats.totalDamage;
+                document.getElementById('maxCombo').textContent = gameState.player1Stats.maxCombo;
+            } else {
+                document.getElementById('winnerTitle').textContent = 'VICTORY!';
+                document.getElementById('winnerName').textContent = `PLAYER ${winner} - ${winnerChar.name} WINS`;
+                document.getElementById('correctAnswers').textContent = winnerStats.correct;
+                document.getElementById('totalDamage').textContent = winnerStats.totalDamage;
+                document.getElementById('maxCombo').textContent = winnerStats.maxCombo;
+            }
+            
+            if (winner === 2 && gameState.mode === 'solo') {
+                document.getElementById('winnerTitle').style.color = 'var(--danger)';
+            }
+            
+            showScreen('resultScreen');
+        }
+        
+        function resetGameState() {
+            gameState = {
+                mode: null,
+                difficulty: 'normal',
+                buzzMode: false,
+                currentTurn: 1,
+                selectingPlayer: 1,
+                player1: null,
+                player2: null,
+                player1Health: 100,
+                player2Health: 100,
+                player1Energy: 0,
+                player2Energy: 0,
+                player1Combo: 0,
+                player2Combo: 0,
+                player1Stance: 'attack',
+                player2Stance: 'attack',
+                buzzWinner: null,
+                player1Stats: {
+                    correct: 0,
+                    totalDamage: 0,
+                    maxCombo: 0
+                },
+                player2Stats: {
+                    correct: 0,
+                    totalDamage: 0,
+                    maxCombo: 0
+                },
+                questionIndex: 0,
+                timer: null,
+                timeLeft: 30
+            };
+            
+            document.getElementById('startBattleBtn').disabled = true;
+            document.querySelectorAll('.character-card').forEach(card => {
+                card.classList.remove('selected', 'disabled');
+            });
+        }
+        
+        function resetGame() {
+            resetGameState();
+            showScreen('modeScreen');
+        }
+        
+        // Initialize
+        init();
+    </script>
+</body>
+</html> damage
                 if (currentPlayer === 1) {
                     gameState.player2Health -= damage;
                     gameState.player1Stats.totalDamage += damage;
@@ -1706,17 +2398,24 @@
             const maxHealth = player === 1 ? gameState.player1MaxHealth : gameState.player2MaxHealth;
             const percentage = Math.max(0, (health / maxHealth) * 100);
             
-            const healthBar = document.getElementById(`fighter${player}Health`);
-            const healthText = document.getElementById(`fighter${player}HealthText`);
+            // Update HUD bars
+            const hudHP = document.getElementById(`hudP${player}HP`);
+            const hudGhost = document.getElementById(`hudP${player}Ghost`);
+            const hudText = document.getElementById(`hudP${player}Text`);
             
-            healthBar.style.width = `${percentage}%`;
-            healthText.textContent = `${Math.max(0, Math.round(health))}/${maxHealth}`;
+            hudHP.style.width = `${percentage}%`;
+            hudText.textContent = `${Math.max(0, Math.round(health))}/${maxHealth}`;
+            
+            // Ghost bar effect (delayed)
+            setTimeout(() => {
+                hudGhost.style.width = `${percentage}%`;
+            }, 100);
             
             // Change color based on health
             if (percentage <= 20) {
-                healthBar.style.background = 'linear-gradient(90deg, #ff3366, #cc0000)';
+                hudHP.style.background = 'linear-gradient(90deg, #ff3366, #cc0000)';
             } else if (percentage <= 50) {
-                healthBar.style.background = 'linear-gradient(90deg, #ffcc00, #ff9900)';
+                hudHP.style.background = 'linear-gradient(90deg, #ffcc00, #ff9900)';
             }
         }
         
@@ -1725,11 +2424,11 @@
             const comboElement = document.getElementById(`fighter${player}Combo`);
             
             if (combo > 0) {
-                comboElement.textContent = `🔥 连击 x${combo}`;
+                comboElement.textContent = `🔥 COMBO x${combo}`;
                 comboElement.classList.add('active');
                 
                 if (combo >= 5) {
-                    comboElement.textContent = `🔥🔥 超级连击 x${combo}`;
+                    comboElement.textContent = `🔥🔥 SUPER COMBO x${combo}`;
                 }
             } else {
                 comboElement.textContent = '';
@@ -1758,7 +2457,7 @@
             damageNumber.className = 'damage-number';
             if (isCritical) {
                 damageNumber.classList.add('critical-hit');
-                damageNumber.textContent = `暴击! -${damage}`;
+                damageNumber.textContent = `CRITICAL! -${damage}`;
             } else {
                 damageNumber.textContent = `-${damage}`;
             }
@@ -1777,13 +2476,21 @@
             const winnerChar = winner === 1 ? gameState.player1 : gameState.player2;
             const winnerStats = winner === 1 ? gameState.player1Stats : gameState.player2Stats;
             
-            document.getElementById('winnerTitle').textContent = winner === 1 ? '胜利!' : '失败...';
-            document.getElementById('winnerName').textContent = winner === 1 ? winnerChar.name : `AI ${winnerChar.name} 获胜`;
-            document.getElementById('correctAnswers').textContent = gameState.player1Stats.correct;
-            document.getElementById('totalDamage').textContent = gameState.player1Stats.totalDamage;
-            document.getElementById('maxCombo').textContent = gameState.player1Stats.maxCombo;
+            if (gameState.mode === 'solo') {
+                document.getElementById('winnerTitle').textContent = winner === 1 ? 'VICTORY!' : 'DEFEAT...';
+                document.getElementById('winnerName').textContent = winner === 1 ? winnerChar.name : `AI ${winnerChar.name} WINS`;
+                document.getElementById('correctAnswers').textContent = gameState.player1Stats.correct;
+                document.getElementById('totalDamage').textContent = gameState.player1Stats.totalDamage;
+                document.getElementById('maxCombo').textContent = gameState.player1Stats.maxCombo;
+            } else {
+                document.getElementById('winnerTitle').textContent = 'VICTORY!';
+                document.getElementById('winnerName').textContent = `PLAYER ${winner} - ${winnerChar.name} WINS`;
+                document.getElementById('correctAnswers').textContent = winnerStats.correct;
+                document.getElementById('totalDamage').textContent = winnerStats.totalDamage;
+                document.getElementById('maxCombo').textContent = winnerStats.maxCombo;
+            }
             
-            if (winner === 2) {
+            if (winner === 2 && gameState.mode === 'solo') {
                 document.getElementById('winnerTitle').style.color = 'var(--danger)';
             }
             
@@ -1792,7 +2499,9 @@
         
         function resetGameState() {
             gameState = {
+                mode: null,
                 currentTurn: 1,
+                selectingPlayer: 1,
                 player1: null,
                 player2: null,
                 player1Health: 100,
@@ -1815,13 +2524,18 @@
             };
             
             document.getElementById('startBattleBtn').disabled = true;
+            document.querySelectorAll('.character-card').forEach(card => {
+                card.classList.remove('selected', 'disabled');
+            });
         }
         
         function resetGame() {
             resetGameState();
-            showScreen('characterScreen');
-            renderCharacters();
+            showScreen('modeScreen');
         }
+        
+        // Initialize
+        init();
     </script>
 </body>
 </html>
