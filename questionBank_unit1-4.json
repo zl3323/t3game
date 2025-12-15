@@ -1,0 +1,6586 @@
+[
+  {
+    "id": "U1-1",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "suffer (名词) _____________",
+    "answer": "suffering"
+  },
+  {
+    "id": "U1-2",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "art (形容词) ______________",
+    "answer": "artistic"
+  },
+  {
+    "id": "U1-3",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "perhaps (同义词) _____________",
+    "answer": "maybe"
+  },
+  {
+    "id": "U1-4",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "complete (副词) ______________",
+    "answer": "completely"
+  },
+  {
+    "id": "U1-5",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "origin (形容词) _____________",
+    "answer": "original"
+  },
+  {
+    "id": "U1-6",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "organize (过去式) ______________",
+    "answer": "organized"
+  },
+  {
+    "id": "U1-7",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "notebook (复数) _____________",
+    "answer": "notebooks"
+  },
+  {
+    "id": "U1-8",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "intelligence (形容词) _____________",
+    "answer": "intelligent"
+  },
+  {
+    "id": "U1-9",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "prehistory (形容词) _____________",
+    "answer": "prehistoric"
+  },
+  {
+    "id": "U1-10",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "die (名词) _____________",
+    "answer": "death"
+  },
+  {
+    "id": "U1-11",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "educate(名词) _____________",
+    "answer": "education"
+  },
+  {
+    "id": "U1-12",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "type (复数) _____________",
+    "answer": "types"
+  },
+  {
+    "id": "U1-13",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "If the environment becomes worse, these animals may d___________ out.",
+    "answer": "die"
+  },
+  {
+    "id": "U1-14",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Tim likes art very much. His dream is to be an a___________.",
+    "answer": "artist"
+  },
+  {
+    "id": "U1-15",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Some students took out their n ___________ and began to take notes.",
+    "answer": "notebooks"
+  },
+  {
+    "id": "U1-16",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Several ____________ (车辆) were damaged in the crash.",
+    "answer": "vehicles"
+  },
+  {
+    "id": "U1-17",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The young have a ____________ (完全地) different set of values and expectations.",
+    "answer": "completely"
+  },
+  {
+    "id": "U1-18",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He wrote and played many____________ (首) of music.",
+    "answer": "pieces"
+  },
+  {
+    "id": "U1-19",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "That’s because you are much ____________ (更有天赋) than I am.",
+    "answer": "more talented"
+  },
+  {
+    "id": "U1-20",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The computer sorts the words in alphabetical ____________ (次序).",
+    "answer": "order 四、"
+  },
+  {
+    "id": "U1-21",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "May 4, 1919 is a ___________ (history) day.",
+    "answer": "historic"
+  },
+  {
+    "id": "U1-22",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Some years later, he became an ___________ (edit) in a magazine company.",
+    "answer": "editor"
+  },
+  {
+    "id": "U1-23",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He has a wide knowledge of ___________ (paint) and music.",
+    "answer": "painting"
+  },
+  {
+    "id": "U1-24",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "___________ (origin), we had planned to go to Italy, but then we took the trip to Greece.",
+    "answer": "Originally"
+  },
+  {
+    "id": "U1-25",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I like reading some scientific books. My dream is to be a great_________ (science).",
+    "answer": "scientist"
+  },
+  {
+    "id": "U1-26",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He’s president of a large international ___________(organize).",
+    "answer": "organization"
+  },
+  {
+    "id": "U1-27",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Her ___________ (die) was a great shock to us all.",
+    "answer": "death"
+  },
+  {
+    "id": "U1-28",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The 30-year-old girl is an ___________ (artistic), and she can sing, draw and dance.",
+    "answer": "artist"
+  },
+  {
+    "id": "U1-29",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在某方面有天赋 _______________",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-30",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "艺术与科学 _______________",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-31",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "从很小的时候 _______________",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-32",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在许多不同的领域中_______________",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-33",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "逐渐变老 _______________",
+    "answer": "grow older"
+  },
+  {
+    "id": "U1-34",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一种史前动物 _______________",
+    "answer": "a type of prehistoric animal"
+  },
+  {
+    "id": "U1-35",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "生活在陆地上 _______________",
+    "answer": "live on land"
+  },
+  {
+    "id": "U1-36",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "不同的尺寸 _______________",
+    "answer": "in different sizes"
+  },
+  {
+    "id": "U1-37",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "灭绝 _______________",
+    "answer": "die out"
+  },
+  {
+    "id": "U1-38",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "了解 _______________",
+    "answer": "learn about"
+  },
+  {
+    "id": "U1-39",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In modern times, “AI” stands for artificial __________.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-40",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She’s even more __________ than her sister.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-41",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They dealt with the trouble __________ !",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-42",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Can machines be as __________ as human beings?",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-43",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Do people in ________ shake hands when they meet?",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-44",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They ate in an _________ restaurant on Fourth Street.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-45",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She once visited ________ for some time. So, she speaks a little ________.",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-46",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In my company, we employed some __________ . They are used to living here.",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-47",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Five people _________ in a house fire last night.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-48",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They cut away all the __________ branches from the tree.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-49",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Three months after his ______, they still felt empty.",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-50",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Now people in this town __________ of hunger every day because of the war.",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-51",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Beijing opera is a special __________ style.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-52",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I explained that I was an __________.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-53",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Fishing is an __________ like painting.",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-54",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Throughout India, people __________ from this pollution at present.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-55",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "His many novels have described the __________ of his country.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-56",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Their __________ living area has disappeared. Everything has changed.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-57",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The __________ of the custom(习俗) is unknown.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-58",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This standard(标准) was not __________ created to deal with AI models.",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-59",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I have a sister who is a __________.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-60",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "A lot of __________and singers like playing the piano.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-61",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I prefer soft __________. It can make me relaxed.",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-62",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Almost everyone has some __________ ability.",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-63",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The events were faithfully __________ in her diary.",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-64",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The guards allowed me to bring my camera and electronic __________.",
+    "answer": "art and science"
+  },
+  {
+    "id": "U1-65",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "are dying",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-66",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "Italy; Italian",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-67",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "are suffering/suffer",
+    "answer": "be talented in"
+  },
+  {
+    "id": "U1-68",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Are you s___________ from the stress in your life?",
+    "answer": "in different sizes"
+  },
+  {
+    "id": "U1-69",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The t___________ sportsman won the championship.",
+    "answer": "died out"
+  },
+  {
+    "id": "U1-70",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Because he studied hard and _________________ art, he was famous as a painter by the age of twenty.",
+    "answer": "was talented in"
+  },
+  {
+    "id": "U1-71",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Mathematics is used ____________________.",
+    "answer": "in many different fields"
+  },
+  {
+    "id": "U1-72",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Scientists found ____________________ that grew a thick protective covering.",
+    "answer": "a type of prehistoric animal"
+  },
+  {
+    "id": "U1-73",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "These toys are made ____________________ , shapes, and colours.",
+    "answer": "in different sizes"
+  },
+  {
+    "id": "U1-74",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "That style of music ____________________ ten years ago. No one knows the reasons.",
+    "answer": "died out"
+  },
+  {
+    "id": "U1-75",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "在电影方面的艺术才华，使他很快成为一名引人注目的电影明星。",
+    "answer": "artistic talent"
+  },
+  {
+    "id": "U1-76",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "计算机改变了人的工作方式。",
+    "answer": "have changed the way"
+  },
+  {
+    "id": "U1-77",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他在解决这个复杂的问题时表现出了极高的智慧。",
+    "answer": "showed great intelligence"
+  },
+  {
+    "id": "U1-78",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这包括了上网的费用。",
+    "answer": "includes"
+  },
+  {
+    "id": "U1-79",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "通过努力学习，我终于赶上班里的其他的同学了。",
+    "answer": "By studying 三、"
+  },
+  {
+    "id": "U1-80",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他们从小就展现出非凡的艺术天赋。(show great artistic talent )",
+    "answer": "From an early age, they showed great artistic talent."
+  },
+  {
+    "id": "U1-81",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "随着年龄的增长，我们学会了怎么与人好好相处。(as... grow older)",
+    "answer": "As we grow older, we learn how to get on well with others."
+  },
+  {
+    "id": "U1-82",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他强壮得像一头熊。(be as + adj. + as)",
+    "answer": "He is as strong as a bear."
+  },
+  {
+    "id": "U1-83",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "今天的班会主题与中国传统文化相关。(be related to)",
+    "answer": "Today’s class meeting topic is related to traditional Chinese culture."
+  },
+  {
+    "id": "U1-84",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "放学后，一些同学正在扫地，另一些同学正在擦门窗。(Some ...., and others...)",
+    "answer": "died"
+  },
+  {
+    "id": "U1-85",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Which painting is Leonardo da Vinci famous ___________?",
+    "answer": "for"
+  },
+  {
+    "id": "U1-86",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Either he ___________ his friend is wrong.",
+    "answer": "or"
+  },
+  {
+    "id": "U1-87",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "___________doing this, we will get more and more pleasure.",
+    "answer": "By"
+  },
+  {
+    "id": "U1-88",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They came ___________ different sizes. The largest can be as long as 15 metres.",
+    "answer": "in"
+  },
+  {
+    "id": "U1-89",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "生平与作品(p11) _______________",
+    "answer": "life and works"
+  },
+  {
+    "id": "U1-90",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "主要成就 _______________",
+    "answer": "main achievements"
+  },
+  {
+    "id": "U1-91",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "现代艺术 _______________",
+    "answer": "modern art"
+  },
+  {
+    "id": "U1-92",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一位中国农业科学家(p12)___________",
+    "answer": "a Chinese agricultural scientist"
+  },
+  {
+    "id": "U1-93",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "各种各样 _______________",
+    "answer": "different kinds of"
+  },
+  {
+    "id": "U1-94",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "获得荣誉 _______________",
+    "answer": "receive honours"
+  },
+  {
+    "id": "U1-95",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "获得多项奖项 _______________",
+    "answer": "win many awards"
+  },
+  {
+    "id": "U1-96",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "更喜欢做某事(p14) _______________",
+    "answer": "prefer to do"
+  },
+  {
+    "id": "U1-97",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "与…相似 _______________",
+    "answer": "be similar to"
+  },
+  {
+    "id": "U1-98",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "起着重要作用 _______________",
+    "answer": "play an important role"
+  },
+  {
+    "id": "U1-99",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She was born ___________ Milan(米兰) ___________ April 29, 1923.",
+    "answer": "play an important role"
+  },
+  {
+    "id": "U1-100",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "你喂了猫没有？",
+    "answer": "Have you fed"
+  },
+  {
+    "id": "U1-101",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他毕生都在为自己的国家和平而战争。",
+    "answer": "spent his whole life fighting"
+  },
+  {
+    "id": "U1-102",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "菲尔现在比以前更独立了。",
+    "answer": "much more independent"
+  },
+  {
+    "id": "U1-103",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "在历史上，你最钦佩的是谁？",
+    "answer": "in history"
+  },
+  {
+    "id": "U1-104",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他的作品影响了数百万人的生活。",
+    "answer": "have influenced"
+  },
+  {
+    "id": "U1-105",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "科学的发展是无止境的。",
+    "answer": "The development of science"
+  },
+  {
+    "id": "U1-106",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "本文提供了大量有用的信息。",
+    "answer": "provides；useful information"
+  },
+  {
+    "id": "U1-107",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "受访的一半以上的中国人更喜欢在手机上阅读。",
+    "answer": "prefer to read"
+  },
+  {
+    "id": "U1-108",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They probably spent about a whole day ___________ (watch) that film.",
+    "answer": "watching"
+  },
+  {
+    "id": "U1-109",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I ___________ (receive) many awards for my outstanding singing skill by now.",
+    "answer": "have received"
+  },
+  {
+    "id": "U1-110",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "People consider the bamboo boxes to be the ___________ (early) schoolbags.",
+    "answer": "earliest"
+  },
+  {
+    "id": "U1-111",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Every year, thousands of young ___________ (invent) show their ideas at the meeting.",
+    "answer": "inventors"
+  },
+  {
+    "id": "U1-112",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The area ___________ (suffer) from food shortage now.",
+    "answer": "is suffering"
+  },
+  {
+    "id": "U1-113",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The aims of the organization are ___________ (whole) peaceful.",
+    "answer": "wholly"
+  },
+  {
+    "id": "U1-114",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They couldn’t give me any more ___________ (inform).",
+    "answer": "information"
+  },
+  {
+    "id": "U1-115",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We should take more care of our ___________ (history) buildings.",
+    "answer": "historic"
+  },
+  {
+    "id": "U1-116",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The school was ___________ (original) very small. Now, it is large and modern.",
+    "answer": "originally"
+  },
+  {
+    "id": "U1-117",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Scientists study sleep by ___________ (use) different music.",
+    "answer": "using"
+  },
+  {
+    "id": "U1-118",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "出生于... ____________",
+    "answer": "be born in"
+  },
+  {
+    "id": "U1-119",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "展现音乐天赋 ____________",
+    "answer": "show musical talent/ability"
+  },
+  {
+    "id": "U1-120",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "花时间做某事 ____________",
+    "answer": "spend time doing sth."
+  },
+  {
+    "id": "U1-121",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在艰难时期 ____________",
+    "answer": "during difficult times"
+  },
+  {
+    "id": "U1-122",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "被誉为 ____________",
+    "answer": "be honored as"
+  },
+  {
+    "id": "U1-123",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "改变历史 ____________",
+    "answer": "change history"
+  },
+  {
+    "id": "U1-124",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "从幼时起 ____________",
+    "answer": "from an early age"
+  },
+  {
+    "id": "U1-125",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "激励数代人 ____________",
+    "answer": "inspire generations"
+  },
+  {
+    "id": "U1-126",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "成为希望的象征 ____________",
+    "answer": "become a symbol of hope"
+  },
+  {
+    "id": "U1-127",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "获得国际尊重 ____________",
+    "answer": "gain international respect"
+  },
+  {
+    "id": "U1-128",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "人物生平;",
+    "answer": "be born in"
+  },
+  {
+    "id": "U1-129",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "事迹与成就；",
+    "answer": "show musical talent/ability"
+  },
+  {
+    "id": "U1-130",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "荣誉与影响。",
+    "answer": "spend time doing sth."
+  },
+  {
+    "id": "U1-131",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "为激励一代代人，聂耳夜以继日地投身音乐创作之中。(To…, devoted himself to...)",
+    "answer": "To inspire generations, Nie Er devoted himself to creating music day and night."
+  },
+  {
+    "id": "U1-132",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "由于他的杰出贡献，他被誉为“人民的音乐家”。(Due to…, he was…)",
+    "answer": "Due to his excellent contributions, he was honored as ‘The People’s Musician’."
+  },
+  {
+    "id": "U1-133",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "总而言之，他的精神将永远激励着中国人民。 (In a word, his spirit will...)",
+    "answer": "In a word, his spirit will forever inspire the Chinese people."
+  },
+  {
+    "id": "U1-134",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There are ___________ (some / any) new books in the school library.",
+    "answer": "( 根据句意, 从括号中选择合适的词填空。) some some any"
+  },
+  {
+    "id": "U1-135",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "从幼时起，他便展现出极好的音乐才能，能弹奏许多乐器(instruments)。(From an early age…, he ...)",
+    "answer": "( 根据句意, 从括号中选择合适的词填空。) some some any"
+  },
+  {
+    "id": "U1-136",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "复合不定代词如果充当主语时，谓语动词用单数式。",
+    "answer": "( 根据句意, 从括号中选择合适的词填空。) some some any"
+  },
+  {
+    "id": "U1-137",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I can hear _________ but your voice.",
+    "answer": "(从方框中选择适当的词完成句子。每词限用一次。) something nothing anything"
+  },
+  {
+    "id": "U1-138",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如果被定语修饰时，修饰语只能后置，也就是说“形容词放在不定代词的后面”。",
+    "answer": "(从方框中选择适当的词完成句子。每词限用一次。) something nothing anything"
+  },
+  {
+    "id": "U1-139",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We bought a box of cherry. Take __________ (some / any) with you when you leave.",
+    "answer": "(从方框中选择适当的词完成句子。每词限用一次。) something nothing anything"
+  },
+  {
+    "id": "U1-140",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "和some, any用法一样，带有some的复合不定代词一般用于肯定句和请求语气的句子中，带有any的复合不定代词一般用于否定句、疑问句。",
+    "answer": "anything"
+  },
+  {
+    "id": "U1-141",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "含有some的复合不定代词也可用于疑问句中，表示请求、建议和反问等。",
+    "answer": "anybody"
+  },
+  {
+    "id": "U1-142",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "含有any的复合不定代词也可以用于肯定句中，表示“任何人”或“任何事”的意思。",
+    "answer": "any; some"
+  },
+  {
+    "id": "U1-143",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He can’t give you __________ (some / any) help at present.",
+    "answer": "anything"
+  },
+  {
+    "id": "U1-144",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There is ___________ (something / anything) in the flower. I think it is a bee.",
+    "answer": "anybody"
+  },
+  {
+    "id": "U1-145",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Our trip to Taiwan was perfect. __________ (nothing / everything) went on well.",
+    "answer": "any; some"
+  },
+  {
+    "id": "U1-146",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I am thirsty. I would like to have ___________ (anything / something) to drink, please.",
+    "answer": "nobody"
+  },
+  {
+    "id": "U1-147",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There is __________ in your pocket. Oh, it is a key.",
+    "answer": "something"
+  },
+  {
+    "id": "U1-148",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Your parents can’t do ___________ for you. You should do it yourself.",
+    "answer": "anything"
+  },
+  {
+    "id": "U1-149",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They can hardly see ___________ in this village. What happened to the villagers?",
+    "answer": "anybody"
+  },
+  {
+    "id": "U1-150",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There isn’t ___________ milk in the fridge. Let’s go to buy ___________ .",
+    "answer": "any; some"
+  },
+  {
+    "id": "U1-151",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I am a new student in the school. I know _________ here and I feel lonely.",
+    "answer": "nobody"
+  },
+  {
+    "id": "U1-152",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Can ___________ (everybody / anybody) hear me? A snake here!",
+    "answer": "Second"
+  },
+  {
+    "id": "U1-153",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He would do ___________ (nothing / anything) for you. He loves you deeply.",
+    "answer": "studied"
+  },
+  {
+    "id": "U1-154",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "My phone was on the desk just now, but I can’t find it now. Did ___________ (nobody / somebody ) take it away?",
+    "answer": "us"
+  },
+  {
+    "id": "U1-155",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Last week I did________ (something / nothing). I just stayed at home and slept all day long.",
+    "answer": "CADAB 四、"
+  },
+  {
+    "id": "U1-156",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Don’t worry about me. __________ is OK with me.",
+    "answer": "Second"
+  },
+  {
+    "id": "U1-157",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Many people ______ mental illness at some point in their lives.",
+    "options": [
+      "suffer from",
+      "come from",
+      "hear from",
+      "learn from"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-158",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "He used to ______ in Shanghai, but now he is used to ______ in Guangzhou.",
+    "options": [
+      "live; drive",
+      "learn; speak",
+      "live; living"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-159",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "If we don’t protect nature, some wildlife may ______ in the future.",
+    "options": [
+      "die out",
+      "put out",
+      "look out",
+      "act out"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-160",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "We will be wiser and wiser as we ______ .",
+    "options": [
+      "turn stronger",
+      "grow older",
+      "become taller"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U1-161",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "This box is three times ______ that one. It’s up to 1,000 kilograms.",
+    "options": [
+      "as long as",
+      "as big as",
+      "as large as"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "U1-162",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "It is my first time taking a vacation. _______ here is so nice. I love the city.",
+    "options": [
+      "Nothing",
+      "Everything"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-163",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "We’re looking for _______ who can deal with the new computer virus.",
+    "options": [
+      "someone",
+      "everyone",
+      "something"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-164",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Running is getting popular. It is good for our health and it costs _______ .",
+    "options": [
+      "nothing",
+      "everything"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-165",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Tommy, is there _______ in the classroom now?",
+    "options": [
+      "everybody",
+      "somebody",
+      "anybody"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-166",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "The light went out suddenly. It was very dark and _______ could be seen clearly.",
+    "options": [
+      "anything",
+      "something",
+      "nothing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-167",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "—Who cooked the hot dry noodles for you? They’re delicious. — _______ . I learned to cook them by myself on the Internet.",
+    "options": [
+      "Everybody",
+      "Somebody"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-168",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Tina, did you buy _______ when you went to Dazhou last month?",
+    "options": [
+      "anything special",
+      "special anything",
+      "something special"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-169",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Did you see ____ at the Hangzhou National Tea Museum?",
+    "options": [
+      "something interesting",
+      "everything interesting",
+      "anything interesting"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-170",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Everyone has faults. Nobody can do ___ right all the time.",
+    "options": [
+      "everything",
+      "anything"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-171",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "—It’s amazing that AI technology is developing in such a rapid way! —In an era (时代) like this, _______ is impossible.",
+    "options": [
+      "something",
+      "anything",
+      "nothing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-172",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "I think _______ can make Mark change his mind. He never gives up easily.",
+    "options": [
+      "nothing",
+      "something",
+      "everything"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-173",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "—Lucy, can you help me pass Level 9 in “Word Puzzle”? —Sure, I’ll do what I can, but there’s _______ I can promise since it’s really hard.",
+    "options": [
+      "something",
+      "anything"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-174",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Kate is brave. And ______ can prevent her from moving forward.",
+    "options": [
+      "anything",
+      "something",
+      "nothing"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-175",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 2,
+    "type": "choice",
+    "question": "_______ is perfect. Don’t push yourself too hard.",
+    "options": [
+      "Everybody",
+      "Nobody"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U1-176",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "Why not stop to have some coffee? _______ is better than getting relaxed after working long.",
+    "options": [
+      "Nothing",
+      "Everything",
+      "Something"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U1-177",
+    "unit": 1,
+    "unitTitle": "Look it up",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "When in trouble, turn to _______ but yourself for help. We should try to solve the problems on our own.",
+    "options": [
+      "everybody",
+      "somebody"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U2-178",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "agree (反义词) ________________",
+    "answer": "disagree"
+  },
+  {
+    "id": "U2-179",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "India (形容词) ________________",
+    "answer": "Indian"
+  },
+  {
+    "id": "U2-180",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "wise (副词) ________________",
+    "answer": "wisely"
+  },
+  {
+    "id": "U2-181",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "exact (副词) ________________",
+    "answer": "exactly"
+  },
+  {
+    "id": "U2-182",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "correctly (形容词) ________________",
+    "answer": "correct"
+  },
+  {
+    "id": "U2-183",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "promise (过去式) ________________",
+    "answer": "promised"
+  },
+  {
+    "id": "U2-184",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "reply (过去式) ________________",
+    "answer": "replied"
+  },
+  {
+    "id": "U2-185",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "check (过去式) ________________",
+    "answer": "checked"
+  },
+  {
+    "id": "U2-186",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "forty (序数词) ________________",
+    "answer": "fortieth"
+  },
+  {
+    "id": "U2-187",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "current(副词) ________________",
+    "answer": "currently"
+  },
+  {
+    "id": "U2-188",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "prize(复数) ________________",
+    "answer": "prizes"
+  },
+  {
+    "id": "U2-189",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fly(名词) ________________",
+    "answer": "flight"
+  },
+  {
+    "id": "U2-190",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "“What am I going to do?” she w___________ aloud.",
+    "answer": "wondered"
+  },
+  {
+    "id": "U2-191",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I’ve searched e___________ but I can’t find it.",
+    "answer": "everywhere"
+  },
+  {
+    "id": "U2-192",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "You have different s___________, interests and futures.",
+    "answer": "schedules"
+  },
+  {
+    "id": "U2-193",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The white paper r___________our whole life and the black spot stands for problems in our life.",
+    "answer": "represents"
+  },
+  {
+    "id": "U2-194",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Do these s___________ have any particular significance(含义)?",
+    "answer": "symbols"
+  },
+  {
+    "id": "U2-195",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "“I won’t let you down,” he ____________ (回复) confidently.",
+    "answer": "replied"
+  },
+  {
+    "id": "U2-196",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They’re used to planning their ____________ (预算).",
+    "answer": "budgets"
+  },
+  {
+    "id": "U2-197",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Each of these ____________ (系统) has its advantages and disadvantages.",
+    "answer": "systems"
+  },
+  {
+    "id": "U2-198",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I like a job that is ____________ (有挑战的) and exciting.",
+    "answer": "challenging"
+  },
+  {
+    "id": "U2-199",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Many of us ____________ (保证) to give more help to them by now.",
+    "answer": "have promised 四、"
+  },
+  {
+    "id": "U2-200",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Two countries signed a number of ___________ (agree). They will seek cooperation.",
+    "answer": "agreements"
+  },
+  {
+    "id": "U2-201",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They are ___________ (current) taking a short break in Spain.",
+    "answer": "currently"
+  },
+  {
+    "id": "U2-202",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The teacher ordered the student ___________ (challenge) him to a game.",
+    "answer": "to challenge"
+  },
+  {
+    "id": "U2-203",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "That’s ___________ (exact) what I think.",
+    "answer": "exactly"
+  },
+  {
+    "id": "U2-204",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The bad news was that all _________ (fly) had been canceled(取消) until further notice.",
+    "answer": "flights"
+  },
+  {
+    "id": "U2-205",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "After a short ___________ (hesitate), I asked him if he needed any help.",
+    "answer": "hesitation"
+  },
+  {
+    "id": "U2-206",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The cost of living has risen ___________ (sharp).",
+    "answer": "sharply"
+  },
+  {
+    "id": "U2-207",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We ___________ (amaze) to find that no one was hurt.",
+    "answer": "were amazed"
+  },
+  {
+    "id": "U2-208",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一位智者 ________________",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-209",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "向某人挑战某事 ________________",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-210",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "思考了一会儿 ________________",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-211",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "数量翻倍 ________________",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-212",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "剩余的 ________________",
+    "answer": "the rest of"
+  },
+  {
+    "id": "U2-213",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "毫不犹豫 ________________",
+    "answer": "without hesitation"
+  },
+  {
+    "id": "U2-214",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "命令某人做某事 ________________",
+    "answer": "order sb. to do sth."
+  },
+  {
+    "id": "U2-215",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "意识到问题 ________________",
+    "answer": "realize the problem"
+  },
+  {
+    "id": "U2-216",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "向某人寻找建议(p23)_____________",
+    "answer": "ask sb. for advice"
+  },
+  {
+    "id": "U2-217",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "听从某人的建议 ________________",
+    "answer": "follow one’s advice"
+  },
+  {
+    "id": "U2-218",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "__________ lies in the south of Asia.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-219",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The South American __________ have been cooking and eating potatoes for over two thousand years.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-220",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The programme is 90 minutes of __________ folk dance, live music and storytelling.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-221",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There are many __________ in the room.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-222",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "both; neither; either",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-223",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Please write in pen on ______ sides of the paper.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-224",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "You can park on __________ side of the street.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-225",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She seemed __________ surprised nor worried.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-226",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This sport demands __________ speed and strength.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-227",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Mike __________ me to a game of chess last week.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-228",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Mike was the first winner last time. This evening, he will meet a new __________ .",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-229",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Mike found a __________ job as a computer programmer.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-230",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The new company’s first __________ is the economy.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-231",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "No doubt they were __________ than he was.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-232",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He __________ decided to tell the truth.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-233",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "__________ is better than strength.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-234",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "with the help of parents, our children can grow up more healthily and __________.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-235",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Be careful—it has a __________ edge(刃).",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-236",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She turned the wheel __________ to the left.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-237",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They have __________ teeth to catch fishes.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-238",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "a few; a little; few; little",
+    "answer": "without hesitation"
+  },
+  {
+    "id": "U2-239",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She felt __________ better now.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-240",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I made __________ phone calls.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-241",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "__________ people understand the difference. Only some experts can find it out.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-242",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The weather in this area is very dry. You can find __________ water here.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-243",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "instead; instead of",
+    "answer": "order sb. to do sth."
+  },
+  {
+    "id": "U2-244",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I took your bag __________ mine by mistake.",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-245",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Lee was ill, so I went __________.",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-246",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Now I can walk to work instead of __________ (go) by car.",
+    "answer": "think for a moment"
+  },
+  {
+    "id": "U2-247",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "a little",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-248",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "a few",
+    "answer": "challenge sb. to sth."
+  },
+  {
+    "id": "U2-249",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "instead of",
+    "answer": "a wise man"
+  },
+  {
+    "id": "U2-250",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I had to make important decisions that would affect me for _________________ my life.",
+    "answer": "the rest of"
+  },
+  {
+    "id": "U2-251",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She went to a wise woman in the village, explained her situation and _______________.",
+    "answer": "asked her for advice"
+  },
+  {
+    "id": "U2-252",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I must ___________________, or it won’t be enough.",
+    "answer": "double the amount"
+  },
+  {
+    "id": "U2-253",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He accepted the job offer ___________________.",
+    "answer": "without hesitation"
+  },
+  {
+    "id": "U2-254",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I ___________________, so I started to change my method.",
+    "answer": "realized the problem"
+  },
+  {
+    "id": "U2-255",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "在哪可以查航空时刻表？",
+    "answer": "flight schedule"
+  },
+  {
+    "id": "U2-256",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "当我说我游泳游得好时，她向我提出挑战一决高低。",
+    "answer": "challenged me to"
+  },
+  {
+    "id": "U2-257",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "也许你仔细考虑之后会改变主意。",
+    "answer": "After thinking it over"
+  },
+  {
+    "id": "U2-258",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他命令军队无论如何也要夺取那座城市。",
+    "answer": "ordered; to capture"
+  },
+  {
+    "id": "U2-259",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "现在，我们有足够的时间做运动了。",
+    "answer": "have enough time 三、"
+  },
+  {
+    "id": "U2-260",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "政府在那座桥上耗费了大量金钱。(spend...on...; a large amount of)",
+    "answer": "The government spent a large amount of money on the bridge."
+  },
+  {
+    "id": "U2-261",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如果有必要, 我就马上来。(...if ...)",
+    "answer": "I will come at once if necessary."
+  },
+  {
+    "id": "U2-262",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "父母总是命令他们的小孩做一些事。(order sb. to do)",
+    "answer": "Parents always order their children to do some things."
+  },
+  {
+    "id": "U2-263",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "国王没有足够的米给这个老人。(... enough + n. ...)",
+    "answer": "The king didn’t have enough rice to give to the old man."
+  },
+  {
+    "id": "U2-264",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "艾丽丝最喜爱的学科是科学。(One’s favourite subject is ...)",
+    "answer": "Alice’s favorite subject is science."
+  },
+  {
+    "id": "U2-265",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "If you think about it ________ a moment, it's clear why.",
+    "answer": "for"
+  },
+  {
+    "id": "U2-266",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He left ________ saying goodbye. Maybe he was angry.",
+    "answer": "without"
+  },
+  {
+    "id": "U2-267",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "________ walking for a long time, I felt hungry.",
+    "answer": "After"
+  },
+  {
+    "id": "U2-268",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "If you have some questions, you can ask us ________ help at any time.",
+    "answer": "for"
+  },
+  {
+    "id": "U2-269",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "少于 (p24) _____________",
+    "answer": "less than"
+  },
+  {
+    "id": "U2-270",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "以不同的方式 _____________",
+    "answer": "in different ways"
+  },
+  {
+    "id": "U2-271",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "设计建筑(p27) _____________",
+    "answer": "design buildings"
+  },
+  {
+    "id": "U2-272",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "研发新药 _____________",
+    "answer": "develop new medicine"
+  },
+  {
+    "id": "U2-273",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "种庄稼 _____________",
+    "answer": "grow crops"
+  },
+  {
+    "id": "U2-274",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "制订月度预算 _____________",
+    "answer": "make a monthly budget"
+  },
+  {
+    "id": "U2-275",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "计划一次旅行 _____________",
+    "answer": "plan a journey"
+  },
+  {
+    "id": "U2-276",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "增长的数量(p27) _____________",
+    "answer": "growing numbers"
+  },
+  {
+    "id": "U2-277",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "急剧增长 _____________",
+    "answer": "rise sharply"
+  },
+  {
+    "id": "U2-278",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在古代(p27) _____________",
+    "answer": "in ancient times"
+  },
+  {
+    "id": "U2-279",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "“What are you doing here?” asked Lisa ________ curiosity.",
+    "answer": "in ancient times"
+  },
+  {
+    "id": "U2-280",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She was ___________ (amazing) at how little he had changed.",
+    "answer": "amazed"
+  },
+  {
+    "id": "U2-281",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "China ___________ (develop) into a most attractive global market since 1949.",
+    "answer": "has developed"
+  },
+  {
+    "id": "U2-282",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The old teacher still works hard though he is in his ___________ (sixty) .",
+    "answer": "sixties"
+  },
+  {
+    "id": "U2-283",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Although radios are out of style, some people ___________ (use) them today.",
+    "answer": "are using"
+  },
+  {
+    "id": "U2-284",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Now we have a special way ___________ (learn) English well.",
+    "answer": "to learn"
+  },
+  {
+    "id": "U2-285",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Over the __________ (century), people have developed different ways of telling the time.",
+    "answer": "centuries"
+  },
+  {
+    "id": "U2-286",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "People use numbers to do a lot of things. Take __________ (plan) a journey for example.",
+    "answer": "planning"
+  },
+  {
+    "id": "U2-287",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We ___________ (grow) up in the same neighbourhood.",
+    "answer": "grew"
+  },
+  {
+    "id": "U2-288",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "About 60 per cent of the world’s population ___________ (current) live in Asia.",
+    "answer": "currently"
+  },
+  {
+    "id": "U2-289",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Four- ___________ (five) of the world’s fresh water is frozen.",
+    "answer": "fifths",
+    "needsReview": true,
+    "expected": "fifth"
+  },
+  {
+    "id": "U2-290",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "达到最高点 _______________",
+    "answer": "reach the highest point"
+  },
+  {
+    "id": "U2-291",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "开始下降 _______________",
+    "answer": "begin to fall / go down"
+  },
+  {
+    "id": "U2-292",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "急剧增长 _______________",
+    "answer": "rise sharply"
+  },
+  {
+    "id": "U2-293",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "几乎不变 _______________",
+    "answer": "stayed almost the same"
+  },
+  {
+    "id": "U2-294",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "降到最低点 _______________",
+    "answer": "reach the lowest point / the least"
+  },
+  {
+    "id": "U2-295",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "总体上升 _______________",
+    "answer": "overall increase"
+  },
+  {
+    "id": "U2-296",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "如数据显示 _______________",
+    "answer": "As the data shows"
+  },
+  {
+    "id": "U2-297",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "与...相比 _______________",
+    "answer": "compared to..."
+  },
+  {
+    "id": "U2-298",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "保持在...水平 _______________",
+    "answer": "stay at / remain at"
+  },
+  {
+    "id": "U2-299",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "主要因为 _______________",
+    "answer": "mainly because"
+  },
+  {
+    "id": "U2-300",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "变化趋势描述；",
+    "answer": "begin to fall / go down"
+  },
+  {
+    "id": "U2-301",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "简要原因分析",
+    "answer": "rise sharply"
+  },
+  {
+    "id": "U2-302",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "one ________",
+    "answer": "first"
+  },
+  {
+    "id": "U2-303",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "two ________",
+    "answer": "second"
+  },
+  {
+    "id": "U2-304",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "six ________",
+    "answer": "sixth"
+  },
+  {
+    "id": "U2-305",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "five ________",
+    "answer": "fifth"
+  },
+  {
+    "id": "U2-306",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "nine ________",
+    "answer": "ninth"
+  },
+  {
+    "id": "U2-307",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "twelve ________",
+    "answer": "twelfth"
+  },
+  {
+    "id": "U2-308",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "eight ________",
+    "answer": "eighth"
+  },
+  {
+    "id": "U2-309",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "twenty-one ________",
+    "answer": "twenty-first"
+  },
+  {
+    "id": "U2-310",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 3,
+    "type": "fill",
+    "question": "然而，在六月份，游客量降至最低水平，为25万人次。 (…, the number of visitors fell to its lowest level at…)",
+    "answer": "first"
+  },
+  {
+    "id": "U2-311",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "从六月份到八月份，游客量显著增长，从25万人次上升到42万人次。(…, there was a significant increase...)",
+    "answer": "second"
+  },
+  {
+    "id": "U2-312",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "与九月相比，十月份的游客量是36万人次，略高于九月份的30万人次。 (…, which was slightly higher than...)",
+    "answer": "sixth"
+  },
+  {
+    "id": "U2-313",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "总体来看，七月和八月的游客最多，主要因为那时是暑假。(Overall, …had the most visitors, mainly because….)",
+    "answer": "fifth"
+  },
+  {
+    "id": "U2-314",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这四个词的前面如果有具体数字, 就要用单数形式, 后面接可数名词的复数。",
+    "answer": "first"
+  },
+  {
+    "id": "U2-315",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如果这四个词的前面没有具体数字, 那么他们的后面要加上s + of, 接可数名词的复数。",
+    "answer": "second"
+  },
+  {
+    "id": "U2-316",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如果后面是“the+名词复数”, 就要用“具体数字 + 这四个计数单位 + of。",
+    "answer": "sixth"
+  },
+  {
+    "id": "U2-317",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "in + 基数词, 表示在某年”。如: in 2016 在2016年。",
+    "answer": "first"
+  },
+  {
+    "id": "U2-318",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "in+ the + 基数词复数, 表示“在....年代”。如:in the 1870s 在19世纪70年代。",
+    "answer": "second"
+  },
+  {
+    "id": "U2-319",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "用两个基数词可以表示具体时刻。3:25 表达为：at three twenty-five",
+    "answer": "sixth"
+  },
+  {
+    "id": "U2-320",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "third ________",
+    "answer": "three"
+  },
+  {
+    "id": "U2-321",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fourth ________",
+    "answer": "four"
+  },
+  {
+    "id": "U2-322",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "tenth ________",
+    "answer": "ten"
+  },
+  {
+    "id": "U2-323",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "twentieth ________",
+    "answer": "twenty"
+  },
+  {
+    "id": "U2-324",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "nineteenth ________",
+    "answer": "nineteen"
+  },
+  {
+    "id": "U2-325",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "thirty-first ________",
+    "answer": "thirty-one"
+  },
+  {
+    "id": "U2-326",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fortieth ________",
+    "answer": "forty"
+  },
+  {
+    "id": "U2-327",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "ninetieth ________",
+    "answer": "ninety"
+  },
+  {
+    "id": "U2-328",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fifty-fourth ________",
+    "answer": "fifty-four"
+  },
+  {
+    "id": "U2-329",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "November 5, 2021 is the ___________ (five) day of November.",
+    "answer": "first",
+    "needsReview": true,
+    "expected": "fifth"
+  },
+  {
+    "id": "U2-330",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Mother’s Day is on the ___________ (two) Sunday of May.",
+    "answer": "second"
+  },
+  {
+    "id": "U2-331",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The ___________ (three) Sunday of June is Father’s Day in most countries.",
+    "answer": "sixth",
+    "needsReview": true,
+    "expected": "third"
+  },
+  {
+    "id": "U2-332",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "December is the___________ (twelve) month in a year.",
+    "answer": "fifth",
+    "needsReview": true,
+    "expected": "twelfth"
+  },
+  {
+    "id": "U2-333",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Today is my mother’s ___________ (thirty- four) birthday.",
+    "answer": "ninth",
+    "needsReview": true,
+    "expected": "thirty-fourth"
+  },
+  {
+    "id": "U2-334",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "The government spent ________ of money building the highway.",
+    "options": [
+      "a large amount",
+      "a large crowd",
+      "a large number",
+      "the number"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U2-335",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "There are many parks in Shenzhen. All of them are open to the public ________ .",
+    "options": [
+      "all year round",
+      "every year",
+      "one by one"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U2-336",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "She ________ why they hadn’t given her an answer.",
+    "options": [
+      "spent",
+      "increased",
+      "wondered",
+      "treated"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U2-337",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "This data ________ from 69 countries. It was valuable.",
+    "options": [
+      "was set up",
+      "led to",
+      "took off"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "U2-338",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Our school team ______ the red team from another school and we _____ the game.",
+    "options": [
+      "fought; beat",
+      "beat; won",
+      "visited; challenged"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U2-339",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "--- How old is your daughter? --- ______ . We had a special party for her _______ birthday yesterday.",
+    "options": [
+      "Nine, nine",
+      "Nine, ninth",
+      "Ninth, ninth"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U2-340",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "It’s said that ________ of the water around the world ________ been polluted.",
+    "options": [
+      "two thirds; has",
+      "two thirds; have"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U2-341",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "We planted ________ trees last year.",
+    "options": [
+      "hundreds of",
+      "hundred of",
+      "five hundreds"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U2-342",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Linda’s mother looks young, but actually she is in her ________.",
+    "options": [
+      "eighties",
+      "eightieth",
+      "eighty years old"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U2-343",
+    "unit": 2,
+    "unitTitle": "Amazing numbers",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "The winner of the competition was an ________ girl called Zhang Mei from China.",
+    "options": [
+      "19-years-old",
+      "18-year-old"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U3-344",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "expert (复数) _________________",
+    "answer": "experts"
+  },
+  {
+    "id": "U3-345",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "pay (名词) _________________",
+    "answer": "payment"
+  },
+  {
+    "id": "U3-346",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "treat(名词) _________________",
+    "answer": "treatment"
+  },
+  {
+    "id": "U3-347",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "smooth(副词) _________________",
+    "answer": "smoothly"
+  },
+  {
+    "id": "U3-348",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "weigh (名词) _________________",
+    "answer": "weight"
+  },
+  {
+    "id": "U3-349",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "social (名词) _________________",
+    "answer": "society"
+  },
+  {
+    "id": "U3-350",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "effect (动词) _________________",
+    "answer": "affect"
+  },
+  {
+    "id": "U3-351",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "tiny (同义词) _________________",
+    "answer": "small"
+  },
+  {
+    "id": "U3-352",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "positive (反义词)_________________",
+    "answer": "negative"
+  },
+  {
+    "id": "U3-353",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "novel (指人名词)________________",
+    "answer": "novelist"
+  },
+  {
+    "id": "U3-354",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "message(复数) _________________",
+    "answer": "messages"
+  },
+  {
+    "id": "U3-355",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "basis(形容词) _________________",
+    "answer": "basic"
+  },
+  {
+    "id": "U3-356",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Scientists are claiming(宣称) a major b___________ in the fight against cancer.",
+    "answer": "breakthrough"
+  },
+  {
+    "id": "U3-357",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Today we will learn how to use the new s___________.",
+    "answer": "software"
+  },
+  {
+    "id": "U3-358",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Turn left at the t___________ lights.",
+    "answer": "traffic"
+  },
+  {
+    "id": "U3-359",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It was a new e___________ in the history of our country.",
+    "answer": "era"
+  },
+  {
+    "id": "U3-360",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In China, the market of d___________ products also grows rapidly.",
+    "answer": "digital"
+  },
+  {
+    "id": "U3-361",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "At the age of twelve, he built his own ___________ (公司).",
+    "answer": "company"
+  },
+  {
+    "id": "U3-362",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She ___________ (被警告) that if she did it again she would lose her job.",
+    "answer": "was warned"
+  },
+  {
+    "id": "U3-363",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "These include droughts, ___________ (洪水), windstorms and wildfires.",
+    "answer": "floods"
+  },
+  {
+    "id": "U3-364",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I’m worried about the safety of the ___________ (治疗).",
+    "answer": "treatment"
+  },
+  {
+    "id": "U3-365",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Those ___________ (评论) do not represent the views of us all.",
+    "answer": "comments 四、"
+  },
+  {
+    "id": "U3-366",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I just had time to shout out and warn them not ___________ (cross) the road.",
+    "answer": "to cross"
+  },
+  {
+    "id": "U3-367",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They represent different ___________ (opinion) of the youth of today.",
+    "answer": "opinions"
+  },
+  {
+    "id": "U3-368",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I ___________ (download) the data that you need. You can read it now.",
+    "answer": "have downloaded"
+  },
+  {
+    "id": "U3-369",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Shen Li, Wei Xiao and Fang Chao are not the real names of the __________ (interview).",
+    "answer": "interviewees"
+  },
+  {
+    "id": "U3-370",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Everything is clear to her and things go ___________ (smooth) then.",
+    "answer": "smoothly"
+  },
+  {
+    "id": "U3-371",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The digits(数字) on the screen of the ___________ (electricity) watch tells us the time.",
+    "answer": "electronic"
+  },
+  {
+    "id": "U3-372",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The disease has ___________ (effect) her sight.",
+    "answer": "affected"
+  },
+  {
+    "id": "U3-373",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She didn’t notice the ___________ (warn) signs of trouble ahead.",
+    "answer": "warning"
+  },
+  {
+    "id": "U3-374",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "积极影响(p35) ______________",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-375",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "扫地机器人(p35) ______________",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-376",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "改善环境 ______________",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-377",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "进一步改变我们的生活____________",
+    "answer": "further change our lives"
+  },
+  {
+    "id": "U3-378",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "移动支付 ______________",
+    "answer": "mobile payment"
+  },
+  {
+    "id": "U3-379",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "被连接到... ______________",
+    "answer": "be connected to"
+  },
+  {
+    "id": "U3-380",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "告诫某人做某事 ______________",
+    "answer": "warn sb. to do sth."
+  },
+  {
+    "id": "U3-381",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "与某人分享某物 ______________",
+    "answer": "share sth. with sb."
+  },
+  {
+    "id": "U3-382",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "交通事故 ______________",
+    "answer": "traffic accidents"
+  },
+  {
+    "id": "U3-383",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "...的数量 ______________",
+    "answer": "the number of"
+  },
+  {
+    "id": "U3-384",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Many of us have tried to lose __________ and failed in the end.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-385",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The baby __________ eight kilos at birth.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-386",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "__________ yourself regularly and you may well start to lose __________ .",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-387",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I can eat what I want, but I never put on __________.",
+    "answer": "further change our lives"
+  },
+  {
+    "id": "U3-388",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The old __________ order was gone forever.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-389",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Team sports help to develop a child’s __________ skills.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-390",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The basic unit of __________ is the family.",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-391",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Every boy and girl __________ in the same way.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-392",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He had to go to the hospital for __________.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-393",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In different environments, he would __________ the nature in different ways.",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-394",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The __________ of a good friendship is trust.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-395",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The book is _________ on personal experience.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-396",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "First, I will talk about some __________ facts about healthy eating!",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-397",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "message;news;information",
+    "answer": "mobile payment"
+  },
+  {
+    "id": "U3-398",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He read the __________ that their team won the match in the newspaper.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-399",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "As you were out, I left a __________ .",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-400",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I found this __________ on their website. It was useful.",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-401",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The research has provided useful __________ .",
+    "answer": "further change our lives"
+  },
+  {
+    "id": "U3-402",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Just a moment, the reporter will come to __________ you.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-403",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "As a general rule, keeping smiling can leave a good impression on the __________ .",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-404",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Among the 365 __________ , 43 percent have less than three years’ work experience.",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-405",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The metal felt __________ and cold.",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-406",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This coffee has a __________ and rich taste.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-407",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She says everything is going __________ .",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-408",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "Weigh; weight",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-409",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "is treated",
+    "answer": "the positive effects"
+  },
+  {
+    "id": "U3-410",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Smart cities can help _____________________ .",
+    "answer": "improve the environment"
+  },
+  {
+    "id": "U3-411",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Would you __________ us __________ your experience about the researches?",
+    "answer": "share; with"
+  },
+  {
+    "id": "U3-412",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There is not only less crime in the countryside, but also fewer_____________________ .",
+    "answer": "traffic accidents"
+  },
+  {
+    "id": "U3-413",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Their company is a new technology company, and has recently produced new _______________.",
+    "answer": "robot cleaners"
+  },
+  {
+    "id": "U3-414",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "_______________ homeless people has risen sharply because of the war.",
+    "answer": "The number of"
+  },
+  {
+    "id": "U3-415",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "我想告诉你深圳是什么样的。",
+    "answer": "what; is like"
+  },
+  {
+    "id": "U3-416",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "目前因特网使我们的工作方式发生了很大变化。",
+    "answer": "has brought big changes"
+  },
+  {
+    "id": "U3-417",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "煤烧完了，只好烧木头。",
+    "answer": "ran out of"
+  },
+  {
+    "id": "U3-418",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他们的粗心导致了试验的失败",
+    "answer": "led to"
+  },
+  {
+    "id": "U3-419",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "洗衣机出故障了。",
+    "answer": "was something wrong with 三、"
+  },
+  {
+    "id": "U3-420",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他的父母不允许他周一至周五玩电子设备。",
+    "answer": "His parents do not allow him to play electronic devices from Monday to Friday."
+  },
+  {
+    "id": "U3-421",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "键盘已经被正确地连接到电脑上了。",
+    "answer": "The keyboard was connected to the computer properly."
+  },
+  {
+    "id": "U3-422",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "对野生生物来说空间将愈来愈少。(There will be ... )",
+    "answer": "There will be less and less space for wildlife."
+  },
+  {
+    "id": "U3-423",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "医生警告说吸烟会导致严重的健康问题。(warn that... )",
+    "answer": "The doctor warned that smoking could lead to serious health problems."
+  },
+  {
+    "id": "U3-424",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "AI将给我们今后的生活带来重大变化。(bring big changes to...)",
+    "answer": "Artificial Intelligence will bring big changes to our future lives."
+  },
+  {
+    "id": "U3-425",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I will take traffic safety ________ example.",
+    "answer": "for"
+  },
+  {
+    "id": "U3-426",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Everything went sweetly according ________ the plan.",
+    "answer": "to"
+  },
+  {
+    "id": "U3-427",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I’m sure you two will have more to share ________ each other.",
+    "answer": "with"
+  },
+  {
+    "id": "U3-428",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "________these data, we can better understand our own health.",
+    "answer": "With"
+  },
+  {
+    "id": "U3-429",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "社交媒体(p43) _____________",
+    "answer": "social media"
+  },
+  {
+    "id": "U3-430",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "发信息 _____________",
+    "answer": "send messages"
+  },
+  {
+    "id": "U3-431",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "当面;亲自 _____________",
+    "answer": "in person"
+  },
+  {
+    "id": "U3-432",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在某事上花时间_____________",
+    "answer": "spend time on sth."
+  },
+  {
+    "id": "U3-433",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "积极影响 _____________",
+    "answer": "positive effects"
+  },
+  {
+    "id": "U3-434",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "培养我们的兴趣_____________",
+    "answer": "develop our interests"
+  },
+  {
+    "id": "U3-435",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "加起来(p45) _____________",
+    "answer": "add up"
+  },
+  {
+    "id": "U3-436",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一套;一组(p46) _____________",
+    "answer": "a set of"
+  },
+  {
+    "id": "U3-437",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一个新时代 _____________",
+    "answer": "a new era"
+  },
+  {
+    "id": "U3-438",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "换句话说 _____________",
+    "answer": "in other words"
+  },
+  {
+    "id": "U3-439",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "________ number of employees in the company was reduced from 400 to 125.",
+    "answer": "in other words"
+  },
+  {
+    "id": "U3-440",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "有些人花一整天玩游戏。",
+    "answer": "spend; on/playing"
+  },
+  {
+    "id": "U3-441",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "那些工人们忙着工作, 都没有停下来休息一下。",
+    "answer": "stopping to rest/having a rest"
+  },
+  {
+    "id": "U3-442",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "互联网有助于我们培养兴趣爱好。",
+    "answer": "develop our interests"
+  },
+  {
+    "id": "U3-443",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "中国将继续发展教育科技。",
+    "answer": "continue to develop"
+  },
+  {
+    "id": "U3-444",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "像 “Wi-Fi”、 “下载” 、“应用程序”这样的表达已经成为我们日常生活的一部分。",
+    "answer": "Expressions；have become"
+  },
+  {
+    "id": "U3-445",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这本书讲述了各种各样的太空信息。",
+    "answer": "all kinds of"
+  },
+  {
+    "id": "U3-446",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "AI的到来开启了一个新的时代。",
+    "answer": "arrival; has started"
+  },
+  {
+    "id": "U3-447",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "你真该看看他们的房子的大小.",
+    "answer": "the size of"
+  },
+  {
+    "id": "U3-448",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Thank you for ___________ (help) me with my work.",
+    "answer": "helping"
+  },
+  {
+    "id": "U3-449",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He went straight to New York without ___________ (stop) anywhere.",
+    "answer": "stopping"
+  },
+  {
+    "id": "U3-450",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "How much time do you spend ___________(play) basketball every week?",
+    "answer": "playing"
+  },
+  {
+    "id": "U3-451",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The fish lay ___________(thousand) of eggs at one time.",
+    "answer": "thousands"
+  },
+  {
+    "id": "U3-452",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He hasn’t understood the ___________(basis) rules of grammar.",
+    "answer": "basic"
+  },
+  {
+    "id": "U3-453",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Quantum(量子) computer will be many times __________(fast) than today’s computers.",
+    "answer": "faster"
+  },
+  {
+    "id": "U3-454",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The children are allowed ___________(watch) TV after school.",
+    "answer": "to watch"
+  },
+  {
+    "id": "U3-455",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He’s always worrying about his ___________ (weigh).",
+    "answer": "weight"
+  },
+  {
+    "id": "U3-456",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Do you usually send your friends ___________ (message)?",
+    "answer": "messages"
+  },
+  {
+    "id": "U3-457",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It was one of ___________(hard) things I ever did.",
+    "answer": "the hardest"
+  },
+  {
+    "id": "U3-458",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "查找信息 _______________",
+    "answer": "search for information"
+  },
+  {
+    "id": "U3-459",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "上网课 _______________",
+    "answer": "take online lessons/courses"
+  },
+  {
+    "id": "U3-460",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "让生活更方便 _______________",
+    "answer": "make life easier/more convenient"
+  },
+  {
+    "id": "U3-461",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "节省时间 _______________",
+    "answer": "save time"
+  },
+  {
+    "id": "U3-462",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "保持联系 _______________",
+    "answer": "stay in touch"
+  },
+  {
+    "id": "U3-463",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "明智地使用 _______________",
+    "answer": "use it wisely"
+  },
+  {
+    "id": "U3-464",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "设屏幕时间限制_______________",
+    "answer": "set screen time limits"
+  },
+  {
+    "id": "U3-465",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "记得去做某事 _______________",
+    "answer": "remember to do sth."
+  },
+  {
+    "id": "U3-466",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "互联网用途",
+    "answer": "search for information"
+  },
+  {
+    "id": "U3-467",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如何正确使用互联网",
+    "answer": "take online lessons/courses"
+  },
+  {
+    "id": "U3-468",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "呼吁合理上网",
+    "answer": "make life easier/more convenient"
+  },
+  {
+    "id": "U3-469",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "互联网在我们学习时帮助我们快速查找信息。(The Internet….when …)",
+    "answer": "The Internet helps us search for information quickly when we study."
+  },
+  {
+    "id": "U3-470",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "首先，我们需要限制屏幕使用时间，以保护眼睛。(First, we need to…)",
+    "answer": "First, we need to set screen time limits to protect our eyes."
+  },
+  {
+    "id": "U3-471",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "最重要的是，它帮助我们通过社交媒体与朋友保持联系。(Most importantly, it ... through social media.)",
+    "answer": "Most importantly, it helps us stay in touch with friends through social media."
+  },
+  {
+    "id": "U3-472",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "让我们一起努力，做聪明的数字公民吧！ (Let’s take action to…!)",
+    "answer": "Let’s take action to be smart digital citizens!"
+  },
+  {
+    "id": "U3-473",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "wet ___________ ___________",
+    "answer": "wetter; wettest"
+  },
+  {
+    "id": "U3-474",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "early ___________ ___________",
+    "answer": "earlier; earliest"
+  },
+  {
+    "id": "U3-475",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "much ___________ ___________",
+    "answer": "more; most"
+  },
+  {
+    "id": "U3-476",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "slow ___________ ___________",
+    "answer": "slower; slowest"
+  },
+  {
+    "id": "U3-477",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "beautiful ___________ ___________",
+    "answer": "more beautiful; most beautiful"
+  },
+  {
+    "id": "U3-478",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "long ___________ ___________",
+    "answer": "longer; longest"
+  },
+  {
+    "id": "U3-479",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fat ___________ ___________",
+    "answer": "fatter; fattest"
+  },
+  {
+    "id": "U3-480",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "bad ___________ ___________",
+    "answer": "worse; worst"
+  },
+  {
+    "id": "U3-481",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "small ___________ ___________",
+    "answer": "smaller; smallest"
+  },
+  {
+    "id": "U3-482",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "fast ___________ ___________",
+    "answer": "faster; fastest"
+  },
+  {
+    "id": "U3-483",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "the ＋形容词原级, 谓语动词用复数，指一类人或物。",
+    "answer": "wetter; wettest"
+  },
+  {
+    "id": "U3-484",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "the ＋形容词比较级，指两者中“较…的”的那一个。",
+    "answer": "earlier; earliest"
+  },
+  {
+    "id": "U3-485",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "a/ an ＋形容词比较级",
+    "answer": "more; most"
+  },
+  {
+    "id": "U3-486",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "a＋most＋形容词最高级 “一个非常…”",
+    "answer": "slower; slowest"
+  },
+  {
+    "id": "U3-487",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "原级比较：肯定句 as….as…., 否定句not so / as….as…..",
+    "answer": "wetter; wettest"
+  },
+  {
+    "id": "U3-488",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "比较句：比较级＋than….或more (less) ….than…..",
+    "answer": "earlier; earliest"
+  },
+  {
+    "id": "U3-489",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "比较级＋ and＋比较级 或 more and more＋原级 “越来越… ”",
+    "answer": "more; most"
+  },
+  {
+    "id": "U3-490",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "The＋比较级..., the＋比较级... “越…，越…” 如：",
+    "answer": "slower; slowest"
+  },
+  {
+    "id": "U3-491",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "比较级＋than any other＋n.(单)(适用于同一范围)",
+    "answer": "more beautiful; most beautiful"
+  },
+  {
+    "id": "U3-492",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "倍数表达法。用times 表倍数通常用于三倍以上，两倍可以用twice或double.",
+    "answer": "longer; longest"
+  },
+  {
+    "id": "U3-493",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "A is three(four, etc.) times the size (height, length etc.) of B.",
+    "answer": "wetter; wettest"
+  },
+  {
+    "id": "U3-494",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "A is three(four, etc.) times as big(high, long, etc.) as B.",
+    "answer": "earlier; earliest"
+  },
+  {
+    "id": "U3-495",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "A is three (four, etc.) times bigger (higher, longer, etc.) than B.",
+    "answer": "more; most"
+  },
+  {
+    "id": "U3-496",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "最高级＋of/ in/ among….",
+    "answer": "fatter; fattest"
+  },
+  {
+    "id": "U3-497",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Of the three boys, Jim is___________ (short) one.",
+    "answer": "wetter; wettest"
+  },
+  {
+    "id": "U3-498",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It is cold today. It will be a little___________ (cold) tomorrow.",
+    "answer": "earlier; earliest"
+  },
+  {
+    "id": "U3-499",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Who is the___________ (young), Tom or Jack?",
+    "answer": "more; most"
+  },
+  {
+    "id": "U3-500",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The tree grows___________ and ___________ (tall).",
+    "answer": "slower; slowest"
+  },
+  {
+    "id": "U3-501",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "A much___________ (small) number of students passed the test than I expected.",
+    "answer": "more beautiful; most beautiful"
+  },
+  {
+    "id": "U3-502",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I think this room is much___________(big) than that one.",
+    "answer": "longer; longest"
+  },
+  {
+    "id": "U3-503",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "There are three boxes in the room. The blue one is___________, but the yellow one is __________ than the blue one. The red one is the__________. (heavy)",
+    "answer": "fatter; fattest"
+  },
+  {
+    "id": "U3-504",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Every day I am___________, but today is the___________ day I have ever had. (busy)",
+    "answer": "worse; worst"
+  },
+  {
+    "id": "U3-505",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I think seafood is the______________________ (delicious) food in the restaurant.",
+    "answer": "smaller; smallest"
+  },
+  {
+    "id": "U3-506",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Amy is the___________(clever) girl in our school.",
+    "answer": "faster; fastest"
+  },
+  {
+    "id": "U3-507",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Working hard is the_________________(important) thing for us now.",
+    "answer": "most important"
+  },
+  {
+    "id": "U3-508",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It’s one of the_____________________ (interesting) stories I have read.",
+    "answer": "most interesting"
+  },
+  {
+    "id": "U3-509",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He is___________(short) than any other boy in his class.",
+    "answer": "shorter"
+  },
+  {
+    "id": "U3-510",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Of the two girls, I find Lucy is___________(smart).",
+    "answer": "the smarter"
+  },
+  {
+    "id": "U3-511",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Alice is not as___________(tall) as Mike.",
+    "answer": "tall"
+  },
+  {
+    "id": "U3-512",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He is________at learning maths. He is much__________at Chinese and he is__________ at English (bad) .",
+    "answer": "bad; worse; the worst"
+  },
+  {
+    "id": "U3-513",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "An orange is a little___________(big) than an apple, but much___________(small) than a watermelon.",
+    "answer": "bigger; smaller"
+  },
+  {
+    "id": "U3-514",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The Changjiang River is___________(long) river in China.",
+    "answer": "the longest"
+  },
+  {
+    "id": "U3-515",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I think it’s too expensive. I’d like a________(cheap) one.",
+    "answer": "cheaper"
+  },
+  {
+    "id": "U3-516",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Gold(黄金) is_________(little) useful than iron(铁).",
+    "answer": "less"
+  },
+  {
+    "id": "U3-517",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "It’ll take about two days to finish the project if everything goes ________ .",
+    "options": [
+      "wisely",
+      "irregularly",
+      "sharply",
+      "smoothly"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "U3-518",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "I’m considering going abroad for ________ study, but I haven’t decided yet.",
+    "options": [
+      "lighter",
+      "further",
+      "heavier"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U3-519",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "________ priceless works of art were stolen from the gallery.",
+    "options": [
+      "The number of",
+      "Large amounts of"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U3-520",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "____ people want to work as farmers these days.",
+    "options": [
+      "Less and less",
+      "More or less",
+      "Fewer and fewer",
+      "Larger and larger"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U3-521",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Greenhouse gas could ________ climate change.",
+    "options": [
+      "lead to",
+      "go to",
+      "get to"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U3-522",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Mike is 1.8 meters tall. He is ______ boy in his class.",
+    "options": [
+      "tall",
+      "taller",
+      "the tallest"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U3-523",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "WeChat is growing fast and it is ______ than QQ in recent years.",
+    "options": [
+      "popular",
+      "more popular"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U3-524",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "I think physics is one of ______all subjects.",
+    "options": [
+      "difficult",
+      "more difficult",
+      "the most difficult"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U3-525",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Whose home is ______ from the school in our class?",
+    "options": [
+      "farther",
+      "the farthest"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U3-526",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "---How can I improve my English? ---____ you speak, ____ your English will be.",
+    "options": [
+      "The less;the more",
+      "The more;the better",
+      "The less;the better"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U3-527",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Kate didn’t do best in the final exam, but of all the students she did ______ .",
+    "options": [
+      "the most careful",
+      "more careful"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U3-528",
+    "unit": 3,
+    "unitTitle": "Our digital lives",
+    "difficulty": 3,
+    "type": "choice",
+    "question": "If we want to be thinner and healthier, we should eat ______ food and take ______ exercise.",
+    "options": [
+      "less; more",
+      "mores; less"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U4-529",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "center (形容词) _________________",
+    "answer": "central"
+  },
+  {
+    "id": "U4-530",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "nation (形容词) _________________",
+    "answer": "national"
+  },
+  {
+    "id": "U4-531",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "pull (反义词) _________________",
+    "answer": "push"
+  },
+  {
+    "id": "U4-532",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "invent (名词) _________________",
+    "answer": "invention/inventor"
+  },
+  {
+    "id": "U4-533",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "path (复数) _________________",
+    "answer": "paths"
+  },
+  {
+    "id": "U4-534",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "depend (名词) _________________",
+    "answer": "dependence"
+  },
+  {
+    "id": "U4-535",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "person (形容词) _________________",
+    "answer": "personal"
+  },
+  {
+    "id": "U4-536",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "benefit (形容数) _________________",
+    "answer": "beneficial"
+  },
+  {
+    "id": "U4-537",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "distance (形容词) _________________",
+    "answer": "distant"
+  },
+  {
+    "id": "U4-538",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "avoid(过去式) _________________",
+    "answer": "avoided"
+  },
+  {
+    "id": "U4-539",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "press(名词) _________________",
+    "answer": "pressure"
+  },
+  {
+    "id": "U4-540",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "predict(名词) _________________",
+    "answer": "prediction"
+  },
+  {
+    "id": "U4-541",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They got on well together a___________ they were total strangers.",
+    "answer": "although"
+  },
+  {
+    "id": "U4-542",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "New York is also a major i___________ financial centre.",
+    "answer": "international"
+  },
+  {
+    "id": "U4-543",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Most cars run with their w___________ like our feet.",
+    "answer": "wheels"
+  },
+  {
+    "id": "U4-544",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "If you a___________ something to an object, you join it or fasten(系牢) it to the object.",
+    "answer": "attach"
+  },
+  {
+    "id": "U4-545",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "When h___________ , ice can turn into water.",
+    "answer": "heated"
+  },
+  {
+    "id": "U4-546",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The different colourful ___________(气球) rose high into the air.",
+    "answer": "balloons"
+  },
+  {
+    "id": "U4-547",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Butterflies have beautiful ___________(翅膀).",
+    "answer": "wings"
+  },
+  {
+    "id": "U4-548",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Others ___________(怀疑) whether that would happen.",
+    "answer": "doubted"
+  },
+  {
+    "id": "U4-549",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We should spend the money on something that __________(受益) everyone in the future.",
+    "answer": "will benefit/ benefits"
+  },
+  {
+    "id": "U4-550",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She ___________(注意到) he was acting strangely.",
+    "answer": "noticed 四、"
+  },
+  {
+    "id": "U4-551",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Although a number of his___________ (invent) were unsuccessful, Edison always pointed to what he learned during the process and how it would help him going forward.",
+    "answer": "inventions"
+  },
+  {
+    "id": "U4-552",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We offer free___________ (technique) support for those buying our software.",
+    "answer": "technical"
+  },
+  {
+    "id": "U4-553",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We should depend on___________ (us).",
+    "answer": "ourselves"
+  },
+  {
+    "id": "U4-554",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He noticed some children___________ (play) on the grassland.",
+    "answer": "playing"
+  },
+  {
+    "id": "U4-555",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Our clothes are often a reflection of our ___________ (person).",
+    "answer": "personality"
+  },
+  {
+    "id": "U4-556",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "A large amount of money___________ (spend) on the free way ten years ago.",
+    "answer": "was spent"
+  },
+  {
+    "id": "U4-557",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The tea trade from China to western countries _________ (take) place in the 19th century.",
+    "answer": "took"
+  },
+  {
+    "id": "U4-558",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "If you can manage it, make fun of___________ (you).",
+    "answer": "yourself"
+  },
+  {
+    "id": "U4-559",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "寻找 _________________",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-560",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "遍及全球 _________________",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-561",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "大量的 _________________",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-562",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "国际贸易 _________________",
+    "answer": "international trade"
+  },
+  {
+    "id": "U4-563",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "依赖于 _________________",
+    "answer": "depend on"
+  },
+  {
+    "id": "U4-564",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "毫无疑问 _________________",
+    "answer": "without doubt"
+  },
+  {
+    "id": "U4-565",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "许多;大量的 _________________",
+    "answer": "a number of"
+  },
+  {
+    "id": "U4-566",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "例如 _________________",
+    "answer": "for instance"
+  },
+  {
+    "id": "U4-567",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在潮湿的天气 _________________",
+    "answer": "in wet weather"
+  },
+  {
+    "id": "U4-568",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "...的到来 _________________",
+    "answer": "the arrival of"
+  },
+  {
+    "id": "U4-569",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "What a __________ story!",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-570",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "That’s the __________ joke I have ever heard.",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-571",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We had a lot of __________.",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-572",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "What __________ we had!",
+    "answer": "international trade"
+  },
+  {
+    "id": "U4-573",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They are making __________ of the old man.",
+    "answer": "depend on"
+  },
+  {
+    "id": "U4-574",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Sailing a boat is great __________.",
+    "answer": "without doubt"
+  },
+  {
+    "id": "U4-575",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Some __________ do well in their lessons.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-576",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The book is based on __________ experience.",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-577",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She had a sweet, lively __________ .",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-578",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "__________ speaking, I’ve always preferred Italian food.",
+    "answer": "international trade"
+  },
+  {
+    "id": "U4-579",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "They are known as “four new great __________ of modern China”.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-580",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Who __________ traffic lights?",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-581",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The __________ were respected. They solved practical problems.",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-582",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We suddenly saw her in the __________.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-583",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The __________ won’t be a problem.",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-584",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The school is three miles __________ from the station.",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-585",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This model can __________ temperatures.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-586",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Without experience, you have no basis for any __________ .",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-587",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It is impossible __________ what will happen.",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-588",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Alice __________ a button and waited for the lift.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-589",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He’s good at dealing with __________ .",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-590",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "How many ________did the Republicans(共和党) win?",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-591",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "We must __________ the facts as they are.",
+    "answer": "across the globe"
+  },
+  {
+    "id": "U4-592",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Is that a __________ or a question?",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-593",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "to predict",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-594",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He celebrated ____________________ the New Year with a party for his friends.",
+    "answer": "the arrival of"
+  },
+  {
+    "id": "U4-595",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Modern computers can organize ____________________ data very quickly.",
+    "answer": "large amounts of"
+  },
+  {
+    "id": "U4-596",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It ____________________ students themselves to make the decision last week.",
+    "answer": "depended on"
+  },
+  {
+    "id": "U4-597",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He surfed the internet _________________ some useful information to complete the job.",
+    "answer": "in search of"
+  },
+  {
+    "id": "U4-598",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Different people have different jobs. _____________, my neighbor is a master carpenter.",
+    "answer": "For instance"
+  },
+  {
+    "id": "U4-599",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "我们大多数人都乘公共交通上班。",
+    "answer": "public transport"
+  },
+  {
+    "id": "U4-600",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "建筑物的模型是用卡片制造的。",
+    "answer": "was made of"
+  },
+  {
+    "id": "U4-601",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "大约两千年前，中国的蔡伦首次发明了纸。",
+    "answer": "was first invented"
+  },
+  {
+    "id": "U4-602",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "即使在目前，他们仍然在十分艰难的条件下工作。",
+    "answer": "extremely difficult"
+  },
+  {
+    "id": "U4-603",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "随着信息化时代的到来，它变得越来越重要了。",
+    "answer": "With the arrival of 三、"
+  },
+  {
+    "id": "U4-604",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他犯了个大错，结果丢了工作。(..., as a result, ...)",
+    "answer": "He made one big mistake. As a result, he lost his job."
+  },
+  {
+    "id": "U4-605",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他不只是一位文豪，还是一位发明家。(not only..., but also... )",
+    "answer": "He is not only a great writer, but also an inventor."
+  },
+  {
+    "id": "U4-606",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "毫无疑问，中国现在更擅长制造高科技产品。(Without doubt,....)",
+    "answer": "Without doubt, China is much better at making high-technology products now."
+  },
+  {
+    "id": "U4-607",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "我们不应该太依赖手机。(depend on)",
+    "answer": "We shouldn’t depend on mobile phones too much."
+  },
+  {
+    "id": "U4-608",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I prefer T-shirts made ________ cotton because they make me feel more comfortable.",
+    "answer": "When he was standing next to /by the new machine live a better life"
+  },
+  {
+    "id": "U4-609",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "________ he’s nearly 80, he is still very active.",
+    "answer": "He is not only a great writer, but also an inventor."
+  },
+  {
+    "id": "U4-610",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He spent ________ large amount of time in New York.",
+    "answer": "Without doubt, China is much better at making high-technology products now."
+  },
+  {
+    "id": "U4-611",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "________ cold weather, it is better to warm your car up before running it.",
+    "answer": "We shouldn’t depend on mobile phones too much."
+  },
+  {
+    "id": "U4-612",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "电话是最重要的发明，因为它改变了人们远距离沟通的方式。(the most... because...)",
+    "answer": "in history"
+  },
+  {
+    "id": "U4-613",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Without doubt, the wheel is one of the most important inventions ________ all time.",
+    "answer": "in history"
+  },
+  {
+    "id": "U4-614",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "在陆地上行驶(p60) ____________",
+    "answer": "run on land"
+  },
+  {
+    "id": "U4-615",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "行驶到更远的距离 ____________",
+    "answer": "travel farther distances"
+  },
+  {
+    "id": "U4-616",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "通过语音控制 ____________",
+    "answer": "be controlled by voice"
+  },
+  {
+    "id": "U4-617",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "使用太阳能 ____________",
+    "answer": "use solar power"
+  },
+  {
+    "id": "U4-618",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "避免交通阻塞 ____________",
+    "answer": "avoid traffic jams"
+  },
+  {
+    "id": "U4-619",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "一种更令人兴奋的体验____________",
+    "answer": "a more exciting experience"
+  },
+  {
+    "id": "U4-620",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "入睡 (p62) ____________",
+    "answer": "fall asleep"
+  },
+  {
+    "id": "U4-621",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "准备做... ____________",
+    "answer": "be ready to do"
+  },
+  {
+    "id": "U4-622",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "醒来 ____________",
+    "answer": "wake up"
+  },
+  {
+    "id": "U4-623",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "把...加热 ____________",
+    "answer": "heat...up"
+  },
+  {
+    "id": "U4-624",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "那列火车最高时速达350千米 / 小时。",
+    "answer": "the/a top speed of"
+  },
+  {
+    "id": "U4-625",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "当你乘着热气球飞翔在天空中时, 你将会像鸟儿一样自由。",
+    "answer": "as free as"
+  },
+  {
+    "id": "U4-626",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这个发明将会帮助人们过上更好的生活。",
+    "answer": "live a better life"
+  },
+  {
+    "id": "U4-627",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "他太忙了，以至于没注意到她。",
+    "answer": "so busy that"
+  },
+  {
+    "id": "U4-628",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "交通信号灯由中心计算机控制。",
+    "answer": "are controlled by"
+  },
+  {
+    "id": "U4-629",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "如果气温降到零度以下，水就会变成冰。",
+    "answer": "turn into"
+  },
+  {
+    "id": "U4-630",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这是近年来生物学上最令人振奋的发展之一。",
+    "answer": "the most exciting developments"
+  },
+  {
+    "id": "U4-631",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "这些卫星定位系统提供方向来帮助人们到达他们想要去的地方。",
+    "answer": "where they want"
+  },
+  {
+    "id": "U4-632",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The sports meeting was a great _____________ (succeed). Many students broke the records of our school.",
+    "answer": "success"
+  },
+  {
+    "id": "U4-633",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "People always remember those _____________ for their _____________(invent).",
+    "answer": "inventors;inventions"
+  },
+  {
+    "id": "U4-634",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The huge truck has eight _____________(wheel).",
+    "answer": "wheels"
+  },
+  {
+    "id": "U4-635",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She looks much________(happy) today. Now she is looking at her son ________(happy).",
+    "answer": "happier;happily"
+  },
+  {
+    "id": "U4-636",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Scientists have found that good news can spread faster and _________(far) than disasters.",
+    "answer": "farther"
+  },
+  {
+    "id": "U4-637",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He tried to avoid _____________(say) anything that would get him into trouble.",
+    "answer": "saying"
+  },
+  {
+    "id": "U4-638",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He woke up to find _____________(him) alone in the house.",
+    "answer": "himself"
+  },
+  {
+    "id": "U4-639",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In old days, _____________(transport) a great deal of goods was a hard job.",
+    "answer": "transporting"
+  },
+  {
+    "id": "U4-640",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The new inventions allow us _____________(do) new things that we haven’t ever been able to do.",
+    "answer": "to do"
+  },
+  {
+    "id": "U4-641",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In our school, the number of students _____________ (rise) now.",
+    "answer": "is rising"
+  },
+  {
+    "id": "U4-642",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "解决这个问题 _____________",
+    "answer": "solve this problem"
+  },
+  {
+    "id": "U4-643",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "节省时间 _____________",
+    "answer": "save time"
+  },
+  {
+    "id": "U4-644",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "环保材料 _____________",
+    "answer": "eco-friendly materials"
+  },
+  {
+    "id": "U4-645",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "通过APP控制 _____________",
+    "answer": "control through an app"
+  },
+  {
+    "id": "U4-646",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "靠太阳能运行 _____________",
+    "answer": "run on solar power"
+  },
+  {
+    "id": "U4-647",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "提出主意 _____________",
+    "answer": "come up with ideas"
+  },
+  {
+    "id": "U4-648",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "减少浪费 _____________",
+    "answer": "reduce waste"
+  },
+  {
+    "id": "U4-649",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "让生活更轻松 _____________",
+    "answer": "make life easier"
+  },
+  {
+    "id": "U4-650",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "发明物特征外形;",
+    "answer": "solve this problem"
+  },
+  {
+    "id": "U4-651",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "相关用途;",
+    "answer": "save time"
+  },
+  {
+    "id": "U4-652",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "好处和总结。",
+    "answer": "eco-friendly materials"
+  },
+  {
+    "id": "U4-653",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "它由环保材料制成，所以对环境很友好。(It is made from…, so it’s...)",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-654",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "首先，它使用起来非常方便，通过手机APP就能轻松控制它。(First, it is convenient to…by…)",
+    "answer": "the worst"
+  },
+  {
+    "id": "U4-655",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "It is made from eco-friendly materials, so it’s good for the environment.",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-656",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "First, it is convenient to use by controlling it through an app on your phone.",
+    "answer": "the worst"
+  },
+  {
+    "id": "U4-657",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "此外，当你启动它时，它会利用传感器寻找垃圾并清扫到垃圾箱里。(Besides, when…, it uses sensors to....)",
+    "answer": "older"
+  },
+  {
+    "id": "U4-658",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "我想到这个主意是因为我想让忙碌的人们打扫变得更轻松。(I came up with this idea because...)",
+    "answer": "better"
+  },
+  {
+    "id": "U4-659",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 3,
+    "type": "fill",
+    "question": "Besides, when you turn it on, it uses sensors to find trash and sweeps it into a bin.",
+    "answer": "older"
+  },
+  {
+    "id": "U4-660",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 3,
+    "type": "fill",
+    "question": "I came up with this idea because I wanted to make cleaning easier for busy people.",
+    "answer": "better"
+  },
+  {
+    "id": "U4-661",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "不规则变化",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-662",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "单音节不规则变化",
+    "answer": "the worst"
+  },
+  {
+    "id": "U4-663",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "两种变化",
+    "answer": "older"
+  },
+  {
+    "id": "U4-664",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "as (否定句中可用so) + adj／adv + as …，意为：···和···一样。如：",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-665",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "as ... as用于倍数表达，倍数置于第一个as之前，即，倍数+ as ... as + 其他。如：",
+    "answer": "the worst"
+  },
+  {
+    "id": "U4-666",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 2,
+    "type": "fill",
+    "question": "as + many / much + 名词 + as 如：",
+    "answer": "older"
+  },
+  {
+    "id": "U4-667",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 3,
+    "type": "fill",
+    "question": "as much / deep / tall / heavy ...+ as + 数量(表度量衡、时间), 用以强调而非比较，意为 “多达···, 深达..., 高达···, 重达···”等。如：",
+    "answer": "better"
+  },
+  {
+    "id": "U4-668",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "In my opinion, your suggestions are ___________ (bad) than mine.",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-669",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "It is ___________ (bad) way of all to overcome the difficulty. It doesn’t work at all.",
+    "answer": "the worst"
+  },
+  {
+    "id": "U4-670",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The house on the hill is ___________ (old) than that one near the river.",
+    "answer": "older"
+  },
+  {
+    "id": "U4-671",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "My English teacher is great. No one teaches_______(well) in our school.",
+    "answer": "better"
+  },
+  {
+    "id": "U4-672",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "She has an ___________ (old) brother. He is two years ___________ (old) than her.",
+    "answer": "elder; older"
+  },
+  {
+    "id": "U4-673",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "My hometown is ___________ (far) away from Shenzhen than yours.",
+    "answer": "farther/further"
+  },
+  {
+    "id": "U4-674",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The parents have four children. ___________ (old) child is 26 years old this year.",
+    "answer": "The eldest/oldest"
+  },
+  {
+    "id": "U4-675",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "My sister has gone to the USA for ___________ (far) study.",
+    "answer": "further"
+  },
+  {
+    "id": "U4-676",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The ___________ (much) junk food you eat, the ___________ (bad) your health will be.",
+    "answer": "more; worse"
+  },
+  {
+    "id": "U4-677",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "To keep healthy, we should eat ___________ (little) salt.",
+    "answer": "less"
+  },
+  {
+    "id": "U4-678",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Many boy students think math is ___________(little) difficult than English.",
+    "answer": "less"
+  },
+  {
+    "id": "U4-679",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I couldn’t feel any ___________ (bad) after my interview for the work. I hardly understood most of the questions they asked.",
+    "answer": "worse"
+  },
+  {
+    "id": "U4-680",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "No mountain in the world is as ___________ (high) as Qomolangma.",
+    "answer": "high"
+  },
+  {
+    "id": "U4-681",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He is very rich, but that day he bought the __________ (cheap) bike to save money for poor children.",
+    "answer": "cheapest"
+  },
+  {
+    "id": "U4-682",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "“Food Safety” problem is becoming ___________ and ___________ (bad) these days.",
+    "answer": "worse;worse"
+  },
+  {
+    "id": "U4-683",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This kind of watch is much ___________ (cheap) today than last month. Would you like to have one?",
+    "answer": "cheaper"
+  },
+  {
+    "id": "U4-684",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Playing video games is a waste of time. There are ___________ (many) meaningful things to do.",
+    "answer": "more"
+  },
+  {
+    "id": "U4-685",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The talent show is as ___________ (interesting) as the game show. I like both.",
+    "answer": "interesting"
+  },
+  {
+    "id": "U4-686",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "A journey by train is ___________ (relaxing) than by coach.",
+    "answer": "more relaxing"
+  },
+  {
+    "id": "U4-687",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "I have been to quite a few restaurants，but I can say this one is ___________ (good).",
+    "answer": "the best"
+  },
+  {
+    "id": "U4-688",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Lucy is much ___________ (careful) than Lily. You can ask her to help with the work.",
+    "answer": "more careful"
+  },
+  {
+    "id": "U4-689",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Shanghai is one of ___________ cities in the world. It’s ___________ than any other city in China(big).",
+    "answer": "the biggest; bigger"
+  },
+  {
+    "id": "U4-690",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Among the four seas off the coast of China, East China Sea is the second ___________ (deep).",
+    "answer": "deepest"
+  },
+  {
+    "id": "U4-691",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "As our children get bigger, our house seems to get ___________ (small).",
+    "answer": "smaller"
+  },
+  {
+    "id": "U4-692",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Both the pink evening dress and the white one look beautiful，but I think the white one is ___________ (suitable).",
+    "answer": "more suitable"
+  },
+  {
+    "id": "U4-693",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The service is very wonderful and the weather is quite fine. We have never had a ___________ (good) holiday before.",
+    "answer": "better"
+  },
+  {
+    "id": "U4-694",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "Molly is _________________ (outgoing) girl of the three.",
+    "answer": "the most outgoing"
+  },
+  {
+    "id": "U4-695",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The movie Zootopia is _________________ (exciting) one I’ve ever seen.",
+    "answer": "the most exciting"
+  },
+  {
+    "id": "U4-696",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "The ___________ (much) you speak, ___________ (good) your English will be.",
+    "answer": "more; better"
+  },
+  {
+    "id": "U4-697",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "He is a little ___________ (thin) than you, but he is as ___________ (strong) as you.",
+    "answer": "thinner;strong"
+  },
+  {
+    "id": "U4-698",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "This schoolbag is not expensive. And the price of it is the __________ (low) of the three.",
+    "answer": "lowest"
+  },
+  {
+    "id": "U4-699",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "You should practice more to improve your English, then you’ll be __________ (good) at it.",
+    "answer": "better"
+  },
+  {
+    "id": "U4-700",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "To live a green life, we should try to save ________ (much) energy and produce _______",
+    "answer": "more; less"
+  },
+  {
+    "id": "U4-701",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "fill",
+    "question": "As the ___________ (fast) girl in our class, Mary was chosen to take part in the running race.",
+    "answer": "fastest"
+  },
+  {
+    "id": "U4-702",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "It would be better to ______ the goods by railway rather than by road.",
+    "options": [
+      "transport",
+      "spread",
+      "increase",
+      "discover"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "U4-703",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "China ______ a new plane last year. It’s said that it’s better than that made in America.",
+    "options": [
+      "bought",
+      "needed",
+      "developed"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "U4-704",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "Mr. Wang was absent. So Mrs. Hu would give us lessons ______ him.",
+    "options": [
+      "together with",
+      "instead of",
+      "in short of",
+      "instead"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "U4-705",
+    "unit": 4,
+    "unitTitle": "Inventions",
+    "difficulty": 1,
+    "type": "choice",
+    "question": "The development of children ______ the surroundings(社会环境) they lived in.",
+    "options": [
+      "called on",
+      "kept on",
+      "depended on"
+    ],
+    "correct": 2
+  }
+]
