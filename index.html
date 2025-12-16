@@ -694,6 +694,89 @@
       .character-grid{ grid-template-columns:1fr; }
       .fighter-avatar{ width:120px; height:120px; }
     }
+    /* ===== TUTORIAL OVERLAY ===== */
+#tutorialOverlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.75);
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  backdrop-filter: blur(6px);
+}
+
+.tuto-card{
+  width:min(900px,95vw);
+  background:linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
+  border:2px solid rgba(255,204,0,.4);
+  border-radius:24px;
+  padding:26px;
+}
+
+.tuto-title{
+  font-family:'Press Start 2P', cursive;
+  color:var(--gold);
+  font-size:22px;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* ===== MINI FIGHT DEMO ===== */
+.mini-fight{ background:rgba(0,0,0,.35); border-radius:18px; padding:16px; }
+
+.mini-arena{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.mini-fighter{ width:120px; text-align:center; }
+
+.mini-avatar{ width:96px; image-rendering:pixelated; }
+
+.mini-avatar.attack{ animation: miniAtk .6s ease-out; }
+.mini-avatar.hit{ animation: miniHit .4s ease-out; }
+
+@keyframes miniAtk{
+  50%{ transform:translateX(22px) scale(1.1); }
+}
+
+@keyframes miniHit{
+  30%{ filter:brightness(2) grayscale(1); }
+}
+
+.mini-hp{
+  height:8px;
+  background:rgba(255,255,255,.15);
+  border-radius:999px;
+  overflow:hidden;
+  margin-top:6px;
+}
+
+.mini-hp-fill{
+  height:100%;
+  width:100%;
+  background:linear-gradient(90deg,#00ff88,#00cc66);
+  transition:width .4s ease;
+}
+
+.mini-vs{
+  font-family:'Press Start 2P', cursive;
+  color:var(--gold);
+}
+
+.mini-caption{
+  text-align:center;
+  margin-top:12px;
+  font-size:18px;
+  color:var(--text-dim);
+}
+
+.tuto-actions{
+  text-align:center;
+  margin-top:18px;
+}
   </style>
 </head>
 
@@ -926,6 +1009,46 @@
       </div>
 
     </div>
+    <!-- ===== Tutorial Overlay START ===== -->
+<div id="tutorialOverlay" style="display:none;">
+  <div class="tuto-card">
+
+    <div class="tuto-title">HOW TO FIGHT</div>
+
+    <!-- Mini Fight Demo -->
+    <div class="mini-fight">
+      <div class="mini-arena">
+
+        <div class="mini-fighter left">
+          <img src="Henry.gif" class="mini-avatar" id="miniP1">
+          <div class="mini-hp">
+            <div class="mini-hp-fill" id="miniHP1"></div>
+          </div>
+        </div>
+
+        <div class="mini-vs">VS</div>
+
+        <div class="mini-fighter right">
+          <img src="Randy.gif" class="mini-avatar" id="miniP2">
+          <div class="mini-hp">
+            <div class="mini-hp-fill" id="miniHP2"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mini-caption" id="miniCaption">
+        ATTACK: Correct answer deals damage
+      </div>
+    </div>
+
+    <div class="tuto-actions">
+      <button class="btn" onclick="closeTutorial()">GOT IT</button>
+    </div>
+
+  </div>
+</div>
+<!-- ===== Tutorial Overlay END ===== -->
   </div>
 
   <script>
@@ -1254,9 +1377,62 @@
       if (!gameState.player1 || !gameState.player2) return;
       showScreen('battleScreen');
       initializeBattle();
-      nextQuestion();
+      if (!tutorialShown) {
+  tutorialShown = true;
+  openTutorial();
+} else {
+  nextQuestion();
+}
     }
 
+let tutorialShown = false;
+let miniStep = 0;
+let miniDemoTimer = null;
+
+function openTutorial(){
+  document.getElementById('tutorialOverlay').style.display = 'flex';
+  startMiniDemo();
+}
+
+function closeTutorial(){
+  stopMiniDemo();
+  document.getElementById('tutorialOverlay').style.display = 'none';
+  nextQuestion();
+}
+
+function startMiniDemo(){
+  playMiniDemo();
+  miniDemoTimer = setInterval(playMiniDemo, 1800);
+}
+
+function stopMiniDemo(){
+  clearInterval(miniDemoTimer);
+}
+
+function playMiniDemo(){
+  const p1 = document.getElementById('miniP1');
+  const p2 = document.getElementById('miniP2');
+  const hp1 = document.getElementById('miniHP1');
+  const hp2 = document.getElementById('miniHP2');
+  const caption = document.getElementById('miniCaption');
+
+  p1.className = 'mini-avatar';
+  p2.className = 'mini-avatar';
+  hp1.style.width = '100%';
+  hp2.style.width = '100%';
+
+  const steps = [
+    () => { caption.textContent='ATTACK: Correct answer deals damage'; p1.classList.add('attack'); p2.classList.add('hit'); hp2.style.width='70%'; },
+    () => { caption.textContent='DEFEND: Damage is reduced'; p2.classList.add('attack'); hp1.style.width='90%'; },
+    () => { caption.textContent='DODGE: Chance to avoid damage'; p1.classList.add('attack'); },
+    () => { caption.textContent='GAMBLE: High risk, high reward'; p2.classList.add('attack'); p2.classList.add('hit'); hp2.style.width='40%'; },
+    () => { caption.textContent='COMBO: Streak = more damage'; p1.classList.add('attack'); p2.classList.add('hit'); hp2.style.width='0%'; }
+  ];
+
+  steps[miniStep]();
+  miniStep = (miniStep + 1) % steps.length;
+}
+    
     function initializeBattle() {
       document.getElementById('hudP1Name').textContent = gameState.player1.name;
       document.getElementById('hudP1Img').src = gameState.player1.image;
