@@ -766,6 +766,13 @@
           </div>
           <!-- Options Panel end -->
         </div>
+        <div class="btn-container" style="margin-top:30px;">
+          <button class="btn" id="continueBtn"
+                  onclick="goToCharacterSelect()"
+                  style="display:none;">
+            CONTINUE
+          </button>
+        </div>
       </div>
 
       <!-- Character Selection Screen -->
@@ -1119,21 +1126,23 @@
       if (mode === 'solo') { diff.style.display = 'block'; duo.style.display = 'none'; }
       else { diff.style.display = 'none'; duo.style.display = 'block'; }
 
-      setTimeout(() => {
-        showScreen('characterScreen');
-        renderCharacters();
-
-        const indicator = document.getElementById('playerTurnIndicator');
-        if (mode === 'duo') {
-          indicator.style.display = 'block';
-          indicator.className = 'player-turn-indicator player1';
-          indicator.textContent = 'PLAYER 1 SELECT';
-        } else {
-          indicator.style.display = 'none';
-        }
-      }, 250);
+      document.getElementById('continueBtn').style.display = 'inline-block';
     }
 
+    function goToCharacterSelect() {
+      showScreen('characterScreen');
+      renderCharacters();
+
+      const indicator = document.getElementById('playerTurnIndicator');
+      if (gameState.mode === 'duo') {
+        indicator.style.display = 'block';
+        indicator.className = 'player-turn-indicator player1';
+        indicator.textContent = 'PLAYER 1 SELECT';
+      } else {
+        indicator.style.display = 'none';
+      }
+    }
+    
     function selectDifficulty(level, ev) {
       gameState.difficulty = level;
       document.querySelectorAll('.difficulty-btn').forEach(btn => btn.classList.remove('selected'));
